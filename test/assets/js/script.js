@@ -51,7 +51,7 @@ var mapData = {};
  
  function preload() {
    font = loadFont('/test/font/307DC5_0_0.ttf');
-   joinedText = loadStrings('/test/Textsammlung Main - TEST.csv');
+   joinedText = loadStrings('/test/csvjson.json');
  }
  
  function setup() {
@@ -59,7 +59,7 @@ var mapData = {};
    // createCanvas(windowWidth, round(windowWidth*1.343));
    // createCanvas(windowWidth*2, round(windowWidth*1.343)*2);
  
-   joinedText = joinedText.join('/test/Textsammlung Main - TEST.csv');
+   joinedText = joinedText.join('/test/csvjson.json');
    // If you want to get rid of all number chars too, just uncomment the following line
    // joinedText = joinedText.replace(/\d+/g, '');
    var words = joinedText.match(/\w+/g);
