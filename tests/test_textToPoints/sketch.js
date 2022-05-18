@@ -1,7 +1,7 @@
 let font;
 
 function preload() {
-    font = loadFont('assets/Univers.otf');
+    font = loadFont('assets/Mirza-Regular.ttf');
 }
 
 let points;
