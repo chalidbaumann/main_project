@@ -5,7 +5,7 @@ const language = {
     en: "en",
 };
 
-let query = "Habe es gekriegt. Was für ein Papier möchtest du? Bis wann bräuchtest du die Ausdrucke? Ok dann bereite ich die Daten einfach vor. Heute Mittag drucke ich das Foto von Oma. Ich besorge auch einen Bilderrahmen ok?";
+let query = "Hallo Ulrike. Beiliegend sende ich dir die angepasste Disposition. Liebe Grüsse und bis nächste Woche =) Chalid.";
 
 
 const key = "627cb640944da56a6800e80a"; // keep it secret

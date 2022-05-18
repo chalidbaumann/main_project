@@ -77,41 +77,62 @@ let json = {
         "confidence": 1
     },
     11: {
+        "text": "Man kann nur morgen Autofahren üben, oder? Oje, das gibt wieder einmal einen Terminclinch. Dann habe ich mogen 4 Termine gleichzeitig. Ist 135.- zu viel für Sandalen?",
+        "author": "Sonja",
+        "subjectivity": 0.28,
+        "polarity": 0.89,
+        "confidence": 0.84
+    },
+    12: {
         "text": "Ih omg, schaut mal. Das sieht aus, als hätte ich heftig Photoshop gebraucht. Aber omg, das hört sich schon mega nervig an. Wirklich nicht. Uh yay. Oh das hört sich doch gut an. Und nach Erfolg. Es sieht lustig aus. Uah makaber. 10 Stunden. Ist doch gut.",
         "author": "Sonja",
         "subjectivity": 0.29,
         "polarity": 0.55,
         "confidence": 0.84
     },
-    12: {
+    13: {
+        "text": "Hey überhaupt. Ja es war schon streng. Und bei dir? Ui, aber mega cool bist du hingegangen. Du musst dann erzählen wie es war. Woah, von wann bis wann denn? Schau mal was ich gestern gefunden habe. Panik wegen etwas vom Fest gestern. Oh und ich kann dir heute noch Fotos zeigen von gestern. Bis das am Schluss war es nämlich wirklich eigentlich voll cool. Also gestern meinte ich. Ui. Du musst dann auch noch erzählen. Öhh vielleicht? Erzähle ich dann mal. Weisst du schon, ob du hier Abendessen isst? Ich könnte warten, ja. Aber raus mag ich heute nicht mehr. Ich brauche definitiv gerade etwas Zeit und Ruhe zuhause. Ich bin gerade recht überfordert wegen morgen, weil ich wieder einmal an 4 Orten gleichzeitig sein sollte. Und alle wütend sind, wenn ich nicht dort bin. Wieso? Mhm, kann ich. Chorausflug, Zeit mit dir, Kino, lernen, Autofahren. Ah nein. Du hast ja gesagt wegen dem Essen?",
+        "author": "Sonja",
+        "subjectivity": 0.28,
+        "polarity": 0.89,
+        "confidence": 0.84
+    },
+    14: {
         "text": "Woah heftig. Danke. Ich dachte, wir würden einfach mit Miro präsentieren. Sorry, ich war ja heute Abend noch weg. Ganz cool. Danke vielmal!! Eh welche meinst du genau? Sonst mache ich es dann noch morgen Vormittag in einer Pause oder so. Bis morgen, gute Nacht. Bist du schon rüber ins andere Gebäude?",
         "author": "Sonja",
         "subjectivity": 0.3,
         "polarity": 0.95,
         "confidence": 0.84
     },
-    13: {
+    15: {
+        "text": "Hallo Ulrike. Beiliegend sende ich dir die angepasste Disposition. Liebe Grüsse und bis nächste Woche =) Chalid.",
+        "author": "Chalid",
+        "subjectivity": 0.41,
+        "polarity": 0.86,
+        "confidence": 0.84
+    },
+    16: {
         "text": "Ah stimmt ja wie war es? Hehe ich dachte es hilf und ist vielleicht übersichtlicher. Sonst ist es schon einmal eine gute Vorbereitung für die Zwischenpräsentation. Bis morgen. Ah super! Cool! Ich dachte wir müssen es morgen früh schon haben. Ok dann schauen wir es morgen an. Gute Nacht.",
         "author": "Chalid",
         "subjectivity": 0.33,
         "polarity": 0.96,
         "confidence": 0.84
     },
-    14: {
+    17: {
         "text": "Hallo Papi, ich schicke dir gerade noch einen Text aufs Mail... Könntest du den heute vielleicht einmal durchlesen und mir Feedback geben? Also ein bisschen zu allem: Verständlichkeit vom Inhalt, Struktur, Rechtschreibung, Quellen, einheitliche Schreibweise.. Ausser zum Layout, das müssen wir erst noch machen. Danke vielvielmal!",
         "author": "Sonja",
         "subjectivity": 0.16,
         "polarity": 0.81,
         "confidence": 0.84
     },
-    15: {
+    18: {
         "text": "Was gibt es zum Mittagessen? Denkt ihr Autofahren vor oder nach dem Abendessen? Um 18 Uhr wäre dann Chorfest. 16 Uhr wäre gut. Abladen lieber in Belp, dass ich dann mit Anna hingehen kann. Ich wäre dann um 15 Uhr in Toffen am Bahnhof, falls es ein nettes Taxi gibt. Weiss man da schon mehr? Dankeeeeee.",
         "author": "Sonja",
         "subjectivity": 0.15,
         "polarity": 0.85,
         "confidence": 0.84
     },
-    16: {
+    19: {
         "text": "typisch Katze. Ich gehe heute nicht zur Party. Viel Spass! Oooh dir auch.",
         "author": "Chalid",
         "subjectivity": 0,
