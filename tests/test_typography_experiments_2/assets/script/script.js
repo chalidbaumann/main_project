@@ -1,3 +1,5 @@
+
+/*
 const Y_AXIS = 1;
 const X_AXIS = 2;
 let b1, b2, c1, c2;
@@ -40,4 +42,20 @@ function draw() {
         line(i, y, i, y + h);
       }
     }
+  }*/
+
+
+
+
+
+  function setup(){
+    createCanvas(window.innerWidth, window.innerHeight);
+    background(255, 255, 255);
+  }
+
+
+  function draw (){
+    let textPath = (255, 200, 100) 
+    fill(textPath);
+    document.getElementById("#a").style.color = "blue";
   }

@@ -154,7 +154,7 @@ let positive; // positiv = 1 (grosse Bewegung)
 let font;
 
 function preload() {
-    font = loadFont('assets/Mirza-Regular.ttf');
+    font = loadFont('assets/EuclidCircularATrial-Bold.otf');
 }
 
 let points; //für textToPoints
@@ -176,42 +176,68 @@ function setup() {
     objective = color(0, 255, 255);
     subjective = color(255, 255, 0);
     //polarity
-    points = font.textToPoints(json[count].text, 50, 50, 5, {
-        sampleFactor: 100,
-        simplifyThreshold: 0
-    })
-    bounds = font.textBounds(json[count].text, 50, 50, 5); //bounding box für Text ?
+    // Object.keys(json).forEach(key => {
+    //     draw_text(count, 1, 100, 0)
+    //     count++
+    // })
+
     //confidence
     unsure = 5;
     sure = 10;
-    frameRate(0.4);
+    // frameRate(0.4);
 }
 
 
 
 
 function draw() {
+
     if (count > (Object.keys(json).length - 1)) { //macht, dass es wieder vorne anfängt wenn Liste zu Ende ist
         count = 0;
     }
+    draw_text(count, 1, 100, 0)
+        // draw_text(count);
+        // confidence
+    let textGroesse = map(json[count].confidence, 0, 1, unsure, sure);
+    textSize(textGroesse);
+    count++;
+}
+
+function draw_text(count, size, x, y) {
+    console.log(`draw`)
+    points = font.textToPoints(json[count].text, 50, 50, size, {
+        sampleFactor: 100,
+        simplifyThreshold: 0
+    });
+    bounds = font.textBounds(json[count].text, 50, 50, 5); //bounding box für Text ?
+
     //subjectivity
     let mycolor = lerpColor(objective, subjective, json[count].subjectivity); //färbt Text nach objektiv/subjektiv
     fill(mycolor);
     //text(json[count].text, 50, 50, 900, window.innerHeight);
     //textWrap(WORD);
     //polarity
+
+    let polarity = json[count].polarity * 20
+
     beginShape(); //Form
     translate(-bounds.x * width / bounds.w, -bounds.y * height / bounds.h); //Bewegung
+
+    let font_position_x = x
+    let font_position_y = y
+
     for (let i = 0; i < points.length; i++) {
         let p = points[i];
-        vertex( //Angaben zur Form innerhalb Funktion beginShape() und endShape()
-            p.x * width / bounds.w + sin(10 * p.y / bounds.h + millis() / 1000) * width / 30, //wobblestärke
-            p.y * height / bounds.h
+        // vertex(
+        //     p.x * width / bounds.w + sin(10 * p.y / bounds.h + millis() / 1000) * width / 30,
+        //     p.y * height / bounds.h
+
+        // );
+        vertex(
+            (p.x * width / bounds.w) + font_position_x + sin(polarity * p.y / bounds.h + millis() / 10) * width / 30,
+            (p.y * height / bounds.h) + font_position_y
+
         );
     }
     endShape(CLOSE);
-    // confidence
-    let textGroesse = map(json[count].confidence, 0, 1, unsure, sure);
-    textSize(textGroesse);
-    count++;
 }
