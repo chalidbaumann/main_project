@@ -9,16 +9,29 @@ async function printJSON() {
 
 
 function writeTextOnPath() {
-    let el = document.getElementById("text-path");
+    let chalid = document.getElementById("text-path");
+    let sonja = document.getElementById("text-path-two");
     //console.log(el)
     for (let n = 0; n < json.length; n++) {
-        /* let div = document.createElement("div")
+        let div = document.createElementNS("http://www.w3.org/2000/svg", "tspan");
          div.innerHTML = json[n].text;
-         div.classList.add(json[n].author);
-         console.log(div)
-         el.appendChild(div);*/
-        el.innerHTML = json[n].text;
+         div.classList.add(json[n].application);
+         if(json[n].author=='Sonja'){
+            sonja.appendChild(div);
+         }
+         else{
+            chalid.appendChild(div); 
+         }
     }
 }
 
 printJSON();
+
+
+function showWhatsapp(){
+    let sonja = document.getElementById("text-path");
+    for (let i = 0; i < sonja.children.length; i++){
+        if (! (sonja.children[i].classList.contains("Whatsapp")))
+        sonja.children[i].style.opacity = 0;
+    }
+}

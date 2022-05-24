@@ -38,11 +38,13 @@
 
 
 //Test-Chalid
-var textPath = document.querySelector('#text-path') //verknüpfung zu textpfad und ID
+var textPaths = document.getElementsByClassName('animatedPath') //verknüpfung zu textpfad und ID
 
 function updateTextPathOffset(offset) {
-    textPath.setAttribute('startOffset', offset) //Start Text
-}
+    for(let n = 0; n < textPaths.length; n++) {
+    textPaths[n].setAttribute('startOffset', offset) //Start Text
+    }
+    }
 
 //Verbindung Animation mit scrollen
 function onScroll() {
