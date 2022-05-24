@@ -1,0 +1,449 @@
+[{
+    "text": "Oh freut mich. Und gerngeschehen.",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.46,
+    "polarity": 0.53,
+    "confidence": 0.2
+}, {
+    "text": "Das habe ich auch gewusst. Danke. Wieso? Oje Aber ja, ich habe auch tolle Albträme gehabt diese Nacht.",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.8,
+    "polarity": 0.49,
+    "confidence": 0.7
+}, {
+    "text": "Ist ja erst ein erster Entwurf :) Ah ich glaube dann hab ichs noch nicht gehabt nein, aber ich habe dann später noch etwas dran gearbeitet :) Also einfach an den Teilen, die ich geschrieben habe und sonst noch Sachen reinkopiert Stimmt, hab ich gesehen, danke :) Ja :) Bei den andern konnte ich halt nicht viel machen. Sie sollten schon noch ihre Quellen und so reintun Ja :) Und dir? Ah okay :)",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.29,
+    "polarity": 0.98,
+    "confidence": 0.6
+}, {
+    "text": "Ich komme auch gerade :)",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.33,
+    "polarity": 0.46,
+    "confidence": 0.5
+}, {
+    "text": "So, endlich kann ich (jedenfalls teilweise, bis wir losgehen) auf die Nachrichten reagieren! Ooh ok interessant! Ja Broken Needle hat wirklich eine schöne Melodie. Aber interessant, dass du Erased zu deinen Lieblings zählst, das hätte ich jetzt irgendwie nicht gedacht. Ah und Spirits will collide.. ja das ist vielleicht nicht mega metal-mässig, aber es hat so etwas mega cooles motivierend-tröstend-ermuetigendes finge ich. Uhh cool. Uii. Uuh yay, Verbündete, die Marylin Manson toll finden (Nicht wie geschmackslose Personen wie Sebi). Wir sind zusammen auf dem Zug. Yayy ja das ist wirklich noch eingängig und natürlich cool. Nein. Ja es ist interessant. Uhh yay. Das ist ja wirklich eine mega fiese Formulierung.",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.9,
+    "polarity": 0.99,
+    "confidence": 0.3
+}, {
+    "text": "Kannst du mir schreiben wenn du davon zurück bist? Mir gehts gerade nicht gut. Und sehen wir uns morgen einmal, nicht zu spät? Am liebsten hätte ich heute Abend ganz viele Umarmungen von dir. Können wir doch noch Fluch der Karibik 4 zusammen schauen? Morgen Abend zum Beispiel?",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.79,
+    "polarity": -0.66,
+    "confidence": 0.2
+}, {
+    "text": "Ah ja.. gehst du heute Abend von Olten an die Party oder direkt von Zürich? Ah ok. Ich hoffe es reicht mir auch. Also vorher nochmals nach Olten für das Schulzeug hintun. Wollen wir dann zusammen losgehen? Uah ich habe gerade keine Zeit für Sprachnachrichten. Wann gehst du los? ? Wegen dem was Kriszti geschrieben hat. Treffen wir uns jetzt irgendwie 17:30? Ich schaffe es wahrscheinlich frühstens auf den. Nein. Ausser ich ginge später hin als 17:30. Das scheisst mich schon sehr an. Uii Planänderung, ich habs jetzt doch schon auf den 3 Zug geschafft.",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.21,
+    "polarity": 0.83,
+    "confidence": 0.4
+}, {
+    "text": "Ohh ups wir sollten ja Hochdeutsch schreiben. Oke:) Hast glaub ich nicht mehr viel verpasst. Ja, ich denke schon.",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.2,
+    "polarity": -0.2,
+    "confidence": 0.9
+}, {
+    "text": "Habe es gekriegt. Was für ein Papier möchtest du? Bis wann bräuchtest du die Ausdrucke? Ok dann bereite ich die Daten einfach vor. Heute Mittag drucke ich das Foto von Oma. Ich besorge auch einen Bilderrahmen ok?",
+    "applicaton": "Whatsapp",
+    "author": "Chalid",
+    "subjectivity": 0.28,
+    "polarity": 0.89,
+    "confidence": 0.2
+}, {
+    "text": "Bin vor den Atelier, bei den roten Tischen.",
+    "applicaton": "Whatsapp",
+    "author": "Chalid",
+    "subjectivity": 0.1,
+    "polarity": 0.2,
+    "confidence": 0.3
+}, {
+    "text": "Hey. Bin fertig aber komme vor dem Mittag nicht mehr retour. Isst du während der Besprechung? Ok dann guten Appetit. Heeey. Ich habe bei canva eine Präsentation gestartet. Wir können gleichzeitig daran arbeiten... ich habe dir eine Einladung gesendet aber auch den Link auf Miro geladen. Die Folien die drin sind können löschen, anpassen usw. Die Daten auf GitHub sind wieder aktuell. Ich arbeite dann mal weiter an der Präsi. Heeey. Kannst du deine Skizzen betreffend der Umsetzung in die Präsentation einfügen? Danke",
+    "applicaton": "Whatsapp",
+    "author": "Chalid",
+    "subjectivity": 0.18,
+    "polarity": 0.1,
+    "confidence": 0.8
+}, {
+    "text": "Morpheus ist gerade nach Hause gekommen. Hat mit eine lebendige Maus vor die Füsse gelegt. Ich glaube sie ist unter das Sofa. Ok.",
+    "applicaton": "Whatsapp",
+    "author": "Chalid",
+    "subjectivity": 0.3,
+    "polarity": 0.4,
+    "confidence": 1
+}, {
+    "text": "Man kann nur morgen Autofahren üben, oder? Oje, das gibt wieder einmal einen Terminclinch. Dann habe ich mogen 4 Termine gleichzeitig. Ist 135.- zu viel für Sandalen?",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.28,
+    "polarity": -0.59,
+    "confidence": 0.8
+}, {
+    "text": "Ih omg, schaut mal. Das sieht aus, als hätte ich heftig Photoshop gebraucht. Aber omg, das hört sich schon mega nervig an. Wirklich nicht. Uh yay. Oh das hört sich doch gut an. Und nach Erfolg. Es sieht lustig aus. Uah makaber. 10 Stunden. Ist doch gut.",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.89,
+    "polarity": 0.55,
+    "confidence": 0.2
+}, {
+    "text": "Hey überhaupt. Ja es war schon streng. Und bei dir? Ui, aber mega cool bist du hingegangen. Du musst dann erzählen wie es war. Woah, von wann bis wann denn? Schau mal was ich gestern gefunden habe. Panik wegen etwas vom Fest gestern. Oh und ich kann dir heute noch Fotos zeigen von gestern. Bis das am Schluss war es nämlich wirklich eigentlich voll cool. Also gestern meinte ich. Ui. Du musst dann auch noch erzählen. Öhh vielleicht? Erzähle ich dann mal. Weisst du schon, ob du hier Abendessen isst? Ich könnte warten, ja. Aber raus mag ich heute nicht mehr. Ich brauche definitiv gerade etwas Zeit und Ruhe zuhause. Ich bin gerade recht überfordert wegen morgen, weil ich wieder einmal an 4 Orten gleichzeitig sein sollte. Und alle wütend sind, wenn ich nicht dort bin. Wieso? Mhm, kann ich. Chorausflug, Zeit mit dir, Kino, lernen, Autofahren. Ah nein. Du hast ja gesagt wegen dem Essen?",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.78,
+    "polarity": 0.3,
+    "confidence": 0.5
+}, {
+    "text": "Woah heftig. Danke. Ich dachte, wir würden einfach mit Miro präsentieren. Sorry, ich war ja heute Abend noch weg. Ganz cool. Danke vielmal!! Eh welche meinst du genau? Sonst mache ich es dann noch morgen Vormittag in einer Pause oder so. Bis morgen, gute Nacht. Bist du schon rüber ins andere Gebäude?",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.3,
+    "polarity": 0.35,
+    "confidence": 0.3
+}, {
+    "text": "Hallo Ulrike. Beiliegend sende ich dir die angepasste Disposition. Liebe Grüsse und bis nächste Woche =) Chalid.",
+    "applicaton": "Ewolack",
+    "author": "Chalid",
+    "subjectivity": 0.21,
+    "polarity": 0.26,
+    "confidence": 1
+}, {
+    "text": "Ah stimmt ja wie war es? Hehe ich dachte es hilf und ist vielleicht übersichtlicher. Sonst ist es schon einmal eine gute Vorbereitung für die Zwischenpräsentation. Bis morgen. Ah super! Cool! Ich dachte wir müssen es morgen früh schon haben. Ok dann schauen wir es morgen an. Gute Nacht.",
+    "applicaton": "Whatsapp",
+    "author": "Chalid",
+    "subjectivity": 0.33,
+    "polarity": 0.46,
+    "confidence": 0.84
+}, {
+    "text": "Weck mich auf sobald du zu Hause bist... dann kann die Mäusejagd beginnen. Morpheus hat vor der Türe gewartet, er ist mir dann zum Bus gefolgt... er verstand nicht warum ich ihn immer wieder weggetragen habe. Von Daria. Was soll ich antworten?",
+    "applicaton": "Whatsapp",
+    "author": "Chalid",
+    "subjectivity": 0.8,
+    "polarity": 0.5,
+    "confidence": 0.7
+}, {
+    "text": "Hallo Papi, ich schicke dir gerade noch einen Text aufs Mail... Könntest du den heute vielleicht einmal durchlesen und mir Feedback geben? Also ein bisschen zu allem: Verständlichkeit vom Inhalt, Struktur, Rechtschreibung, Quellen, einheitliche Schreibweise.. Ausser zum Layout, das müssen wir erst noch machen. Danke vielvielmal!",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.16,
+    "polarity": 0.11,
+    "confidence": 0.1
+}, {
+    "text": "Was gibt es zum Mittagessen? Denkt ihr Autofahren vor oder nach dem Abendessen? Um 18 Uhr wäre dann Chorfest. 16 Uhr wäre gut. Abladen lieber in Belp, dass ich dann mit Anna hingehen kann. Ich wäre dann um 15 Uhr in Toffen am Bahnhof, falls es ein nettes Taxi gibt. Weiss man da schon mehr? Dankeeeeee.",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.15,
+    "polarity": 0.45,
+    "confidence": 0.2
+}, {
+    "text": "Wie würde ich denn alles zeigen? Mit ihr drüber reden? Es ist so schade ist sie nicht mehr in Chats, sonst bekäme sie ja das auch ein bisschen mit. Hmmm... ja ich weiss auch nicht was das beste wäre. Ah aber im Ballett war ich doch immer scheisse. Mh ja ok. Ich habe es ein bisschen versucht, aber es braucht immer noch ziemlich Überwindung.",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.9,
+    "polarity": -0.5,
+    "confidence": 0.5
+}, {
+    "text": "Theorietext zum lesen und für Feedback. Merci!",
+    "applicaton": "Ewolack",
+    "author": "Sonja",
+    "subjectivity": 0.9,
+    "polarity": -0.2,
+    "confidence": 0.5
+}, {
+    "text": "Typisch Katze. Ich gehe heute nicht zur Party. Viel Spass! Oooh dir auch.",
+    "applicaton": "Whatsapp",
+    "author": "Chalid",
+    "subjectivity": 0.7,
+    "polarity": 0,
+    "confidence": 0.6
+}, {
+    "text": "Wäre auch ohne Standfuss ok?",
+    "applicaton": "Whatsapp",
+    "author": "Chalid",
+    "subjectivity": 0.2,
+    "polarity": 0.26,
+    "confidence": 0.4
+}, {
+    "text": "Omg noch ein Ei. Seine Ei-Bilanz ist nun 3.",
+    "applicaton": "Whatsapp",
+    "author": "Chalid",
+    "subjectivity": 0.4,
+    "polarity": 0.8,
+    "confidence": 0.3
+}, {
+    "text": "Dieses Mal war ein Vogel drin. Ein zweites Ei. OMG.",
+    "applicaton": "Whatsapp",
+    "author": "Chalid",
+    "subjectivity": 0.9,
+    "polarity": 0.6,
+    "confidence": 0.6
+}, {
+    "text": "Hallo dad . Die Diplome sende ich dir gleich als Druck PDF und InDesign Datei.",
+    "applicaton": "Ewolack",
+    "author": "Chalid",
+    "subjectivity": 0.2,
+    "polarity": 0.1,
+    "confidence": 0.2
+}, {
+    "text": "Mh ich mache kein ZIP, ich lade die Dateien einzeln auf Wetransfer... eventuell wird ein ZIP generiert...ich schaue später nochmal.",
+    "applicaton": "Whatsapp",
+    "author": "Chalid",
+    "subjectivity": 0.1,
+    "polarity": 0.3,
+    "confidence": 0.7
+}, {
+    "text": "Oh. Sorry für die späte Antwort. Es war noch ganz lustig heute Abend. Dank dem Champagner auf den leeren Magen beim Apero war ich glaub ich dann auch etwas weniger gehemmt zum reden mit den andern. In meinem Plan bin ich zwar etwas hinterher, Haarewaschen hat nicht mehr gereicht.. aber ich hoffe ich schaffe das morgen! Aw danke, dir auch eine ganz gute Nacht! Hab dich auch mega fest lieb! Mhm, habe es ja nachher in meinen Plan integriert. Noch nicht.. Aber ich denke wir sind noch recht gut darin, einander schnell zu vergeben oder so und Sachen für einen Moment auf die Seite zu schieben? Aber ich habe sie vorher noch gefragt ob sie sich denn freuen würde wenn ich auch käme oder ob sie es awkward fände.. und sie meinte jedenfalls, sie würde sich freuen. Eh wegen Kino: Wollen wir reservieren oder einfach hingehen? Mhm. Eh meine Züge kommen ja immer 18 und 48 an.. 48 für Film um 00 ist vielleicht ein bisschen knapp? Hmm. Ich könnte schon jede Minute brauchen zum lernen. Ja ist gut. Obwohl ich eigentlich so gerne noch etwas an die Sonne würde. Aber keine Zeit. Oder sonst sag ich es dir noch, falls es mir früher reichen würde? Jä, das mache ich nicht gerne zum lernen, das lenkt mich nur ab. Ich jetzt auch. Ich hoffe ich finde es dann. Welches von diesen Gebäuden ist es wohl? Dort wo Google Maps anzeigt ist ja ein Restaurant??! Ey. Versteh ich nicht ganz. Wo bist du? Welcher Fussgängerstreifen? Ich verstehe es nicht. Wo?",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.9,
+    "polarity": -0.5,
+    "confidence": 0.8
+}, {
+    "text": "Noch ein paar Fotos. Death? Hoffentlich.",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.7,
+    "polarity": -0.8,
+    "confidence": 0.4
+}, {
+    "text": "Omg das hört sich tatsächlich langsam so an als könnte ich Spanisch! Pflanzen an sonnige Plätze tun. Uiii. Wieso wollen die drei vordersten aus dem Topf springen?",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.9,
+    "polarity": -0.6,
+    "confidence": 0.8
+}, {
+    "text": "Heyy. Jetzt gerade viel am lernen. Dafür war ich gestern noch an einem Fest und heute gehe ich noch ins Kino :) Es ist gerade etwas sad, draussen wäre es so schönes Wetter. Und bei dir? Ist gut.",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.8,
+    "polarity": -0.8,
+    "confidence": 0.9
+}, {
+    "text": "Hallo Nina. Es ist schon wieder eine ganze Weile her, seit wir uns zuletzt gehört haben. Wie geht es dir? Bald habe ich das erste Jahr Studium geschafft. Ich freue mich schon auf die Semesterferien..die beginnen anfangs Juli :-) Zur Zeit nehme ich an einem Web Design Modul teil. Wir sammeln Daten zu uns selbst und programmieren anschliessend eine Webseite. Spannend aber auch komplex.m Schluss kann ich dir das Ergebnis zeigen wenn du magst :-) Vor zwei Monaten wurde Cicero in der Nähe unserer Wohnung überfahren. Ich habe mich immer noch nicht davon erholt. Er war mein Engel und hat mir jeden Tag viel Freude bereitet und Kraft gegeben... Vor 3 Wochen ist meine Grossmutter von uns gegangen. Sie war am Ende bereit zu gehen, aber ich vermisse sie sehr. Die Beerdigung wird nächsten Freitag sein. Es passieren viele Dinge, die es mir schwer machen positiv zu bleiben. Ich habe aber Ueli, der auf mich aufpasst :-) Was gibt es Neues bei dir? Ganz liebe Grüsse Chalid.",
+    "applicaton": "Ewolack",
+    "author": "Chalid",
+    "subjectivity": 0.7,
+    "polarity": 0.2,
+    "confidence": 0.5
+}, {
+    "text": "Heeey. Wie war die Vorkurs Party eigentlich? Jaaaaaaa.",
+    "applicaton": "Whatsapp",
+    "author": "Chalid",
+    "subjectivity": 0.2,
+    "polarity": 0.9,
+    "confidence": 0.2
+}, {
+    "text": "Also ich habe halt einfach die Definition vom Rhizom von Wikipedia.",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.1,
+    "polarity": 0.2,
+    "confidence": 0.1
+}, {
+    "text": "Ohh dankeee. Weisst du gerade ob wir genug Reis haben (egal welcher, ausser Risotto) für 4 Personen? Oke macht nichts. Wegen dem was ich kochen wollte. Mhm, die vier Sonjs. Ah. Ich hab schon nicht einfach so Besuch eingeladen heute Abend. Hast du etwas speziell gedacht zum Abendessen? Und hast du schon gegessen oder nicht? Ah oke. Aber nicht schlimm, ich sollte heute sowieso noch viel arbeiten. Dann esse ich doch gerade etwas währenddessen. Ein zur Kenntnis nehmendes Lächeln. (Vielleicht hätte ich nicht das nehmen sollen, wenn auch auch ironisch gedeutet werden kann).",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.9,
+    "polarity": 0.5,
+    "confidence": 1
+}, {
+    "text": "Ohh du musst mir dann mal Fotos zeigen. Oh danke für den Tipp. Heyy.. Ich habe noch das 30-minütige Video geschaut von Tom Campbell.. aber es ist jetzt mega brauchbar, finde ich. Er erklärt einfach nochmals etwas wie Binaural Beats funktionieren.. das sind noch paar Notizen, die ich mir währenddessen gemacht habe.. aber ja, vielleicht nehmen wir besser eine andere Quelle. Nicht mega brauchbar meine ich. Das hingegen hört sich noch recht vielversprechend an.",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.9,
+    "polarity": 0.4,
+    "confidence": 0.8
+}, {
+    "text": "Das erste das bei Google gekommen ist, wenn man nach Schoggi Brownies sucht. Von Betty Bossi oder so? Danke für den Sandal! Muss man die noch imprägnieren?",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.4,
+    "polarity": 0.3,
+    "confidence": 0.5
+}, {
+    "text": "Uii aber Fischfotos. Omg so viel Musik. Handynamen umbenennen.",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.8,
+    "polarity": 0.3,
+    "confidence": 0.4
+}, {
+    "text": "Oh noo sorry. Ich habe es mal so durchgeschaut, aber ich weiss noch nicht ob ich alles richtig verstanden habe. Vielleicht muss du es mir nochmals erklären :) Heyy hast du gesehen? Hann will mit uns morgen um 10:30 Code bauen. Find ich eigentlich noch gut, ich fühle mich iwie etwas überfordert im Moment. Ups 10:45 meine ich. Ich war gerade nochmals auf der Textgain Seite.. aber iwie verstehe ich es nicht ganz.. man kann wahrscheinlich keine Code-Samples kopieren, oder finde ich es nur nicht?",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 1,
+    "polarity": -0.7,
+    "confidence": 0.8
+}, {
+    "text": "Hey. Ich gehe jetzt schlafen. Aber ich konnte tatsächlich noch viel erledigen. Also betreffend lernen. Und ich habe Sandalen gekauft. Ich hoffe dir geht es auch gut. Und sorry war ich heute Morgen so grob. Ich meine es eigentlich nicht so.. Nur früher Morgen und Müdigkeit sind bei mir keine gute Kombination. Yay. Zwar, schon.. Okee dann gute Nacht. Ich liebe dich.",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 1,
+    "polarity": 0.9,
+    "confidence": 0.5
+}, {
+    "text": "Notizen zu Tom Campbell – Atlanta 2016 Binaural Beats: BB machen nicht etwas mit einem, man muss selbst etwas daraus machen. Sie regen nur an. Nach einiger Übung kann man auch ohne BB in die gewünschte Schwingung kommen. Gleiche Schwingungen erreichbar auch mit guter Übung in Meditation. Wechslungen in der Tonhöhe sind besser als keine, da man dadurch weniger abschweift. Je mehr man mit BB übt, desto besser kann man es.",
+    "applicaton": "Ewolack",
+    "author": "Sonja",
+    "subjectivity": 0.2,
+    "polarity": 0.2,
+    "confidence": 0.3
+}, {
+    "text": "Notizen zu Werden binaurale Beats überbewertet? NaturMEDIZIN QS24 Gesundheitsfernsehen (mit Andreas Bernknecht): Mit Trendaufkommen von BB: Ihnen werden viele Eigenschaften zugeschrieben, die sie gar nicht haben. Besser für Affirmationen…",
+    "applicaton": "Ewolack",
+    "author": "Sonja",
+    "subjectivity": 0.5,
+    "polarity": -0.6,
+    "confidence": 0.5
+}, {
+    "text": "Idee Fragestellung. Wieso sind binaurale Beats noch so unbekannt, wenn sie doch helfen und wissenschaftlich belegt sind? Binaural Beat Technology in Humans: A Pilot Study to Assess Neuropsychologic, Physiologic, And Electroencephalographic Effects: (16.05.2022) The impact of binaural beats on creativity: (16.05.2022) The Effect of Binaural Beats on Working memory capacity: (16.05.2022) Videos (16.05.2022) Tom Campbell: Atlanta 2016 Binaural Beats: Video mit Erklärungen >> Werden binaurale Beats überbewertet? Binaurale Beats und deren Wirkung mit Andreas Bernknecht.",
+    "applicaton": "Ewolack",
+    "author": "Sonja",
+    "subjectivity": 0.4,
+    "polarity": -0.7,
+    "confidence": 0.7
+}, {
+    "text": "Hallo Ulrike. Beiliegend findest du meine Disposition. Liebe Grüsse Chalid.",
+    "applicaton": "Ewolack",
+    "author": "Chalid",
+    "subjectivity": 0.2,
+    "polarity": 0.1,
+    "confidence": 0.6
+}, {
+    "text": "Gestalterische Mittel in der Lebensmittelwerbung für vegane Produkte. Diese Arbeit untersucht die gestalterischen Mittel, die in der Werbung für vegane Lebensmittel eingesetzt werden. Ich grenze die Untersuchung auf Plakate ein. In der allgemeinen Ebene befasse ich mich mit den theoretischen Grundlagen und Ziele der traditionellen Werbung und der Bildsemiotik. Werbung hat bekanntlich eine argumentatorische Eigenschaft, was ich sehr interessant finde. Anhand von gesellschaftlich aktuell relevanten Projekten betreffend Umweltschutz und Tierrettung sowie einem Beispiel im Bereich der Lebensmittelindustrie, untersuche ich den Aspekt der Gewinnung von Aufmerksamkeit und der Übermittlung von argumentativen Mittel, die da wären: Behauptung. Suggerieren einer Wahl. Eindruck von Präsenz verstärken. Verbindung mit dem Publikum herstellen. Die konkrete Ebene dient der Auseinandersetzung mit den Marken v-love und Karma. Ich vergleiche Gemeinsamkeiten und Unterschiede auf der Bild- und Textebene und untersuche konkret, wie die Argumentationen umgesetzt werden. Nach Abschluss dieser Arbeit möchte die eingesetzten gestalterischen Mittel für vegane Lebensmittel definieren und zusammenfassen können. Vegan leben wird immer beliebter, was durch die zunehmende Werbung für jene Nahrungsmittel bestätigt wird. Es ist mir persönlich wichtig in Erfahrung zu bringen, inwiefern es Unterschiede zur allgemeinen Werbung gibt. Wie und mit welchen Mitteln wird eine Verbindung zum Konsumenten hergestellt? Mit welchen gestalterischen Mitteln wird für vegane Lebensmittel geworben? Was sind argumentative Mittel und wie werden sie in der Werbung eingesetzt? Wie wird eine Verbindung mit dem Betrachter hergestellt? Gibt es Unterschiede auf der Bildebene zwischen traditioneller Werbung und Werbung für vegane Lebensmittel? Gibt es Unterschiede auf der Textebene zwischen traditioneller Werbung und Werbung für vegane Lebensmittel? In welcher Beziehung stehen Bild und Text in der Werbung veganer Lebensmittel? Welche Besonderheiten fallen im Vergleich zur traditionellen Werbung auf? Mit welchen gestalterischen Mitteln werben Migros und Coop für vegane Lebensmittel? Sind die Plakatumsetzungen von v-love in Bezug auf der Verbindungsherstellung zum Betrachter gelungen? Werden bei den v-love Plakaten von Migros die argumentativen Mittel angemessen eingesetzt? Brigitte Burkhard und Jürg Kaltenrieder: Marketing- und Unternehmenskommunikation: Auflage Januar 2018, Ausbildungsliteratur zum Sachbearbeiter/-in mit Marketing- und Verkaufsdiplom. Grundlagen betreffend Kommunikation und Werbung aus der Sicht von Marketing und Verkauf. Allgemeine Ebene. Gentinex, Kommunikation im Business: (abgerufen am 25.04.2022) Definition von Manipulation und Selbstbestimmung. Allgemeine Ebene. Janich, Nina: Handbuch Werbekommunikation: Sprachwissenschaftliche und interdisziplinäre Zugänge, 1. Aufl., Stuttgart, Deutschland: UTB GmbH, 2012. Sprache, Wirkung, Wahrnehmung, Charakteristika in der Werbung. Allgemeine und konkrete Ebene. Thomas Friedrich, Gerhard Schweppenhäuser: Bildemiotik: Grundlagen und exemplarische Analysen visueller Kommunikation, Auflage 2010, Birkenhäuser Verlag AG, Berlin. Kommunikation und rhetorische Stilmittel in der Werbung. Allgemeine und konkrete Ebene. From visual rhetoric to multimodal argumentation: exploring the rhetorical and argumentative relevance of multimodal figures on the covers of The Economist (abgerufen am 08.05.2022) Gruppierung von Abbildungen in Bezug auf ihre Argumentativität: Behaupten oder eine Wahl suggerieren. den Eindruck von Präsenz zu verstärken oder. eine Verbindung mit dem Publikum herzustellen. Rhetorische und semiotische Figuren und ihre Relevanz. Allgemeine und konkrete Ebene. Veganuary Pressekit 2022: (abgerufen am 25.04.2022) Pressekit der Organisation Veganuary. Es liefert Informationen zum „vegan Boom“ und Konsumenten-einsichten. Konkrete Ebene. Ich gehe von einer Annahme aus, dass vegane Lebensmittel mit anderen Massnahmen und Mittel beworben werden als Lebensmittel in der traditionellen Werbung. Diese, im Vergleich, neuere Produkte müssen sich gegenüber der Konkurrenz abheben und auffallen, um beim Betrachter des Plakats eine Reaktion auslösen zu können. Mich interessieren die Normabweichungen, rhetorische Stilmittel und argumentativen Massnahmen, die in der Werbung für vegane Lebensmittel eingesetzt werden. V-LOVE. Die Produktmarke von Migros spricht den Betrachter der Werbung direkt „per du“ an. Die Gestaltung ist einprägsam, aber trotzdem schlicht und sachlich gehalten. Interessant ist die Materialisierung der Typografie, was Natürlichkeit, Echtheit und Nähe implizieren. Auffallend ist der Wiederholte Einsatz des „V“ für vegan, sowie ihrem Slogan „V-LOVE YOU“. Migros stellt eine emotionale Verbindung zum Betrachter her, mit einer lockeren und lässigen Art. Egal wie oft, oder aus welchen persönlichen Gründen ein v-love Produkt verzehrt wird, sie lieben den Konsumenten. Karma. Coop arbeitet stark mit der Verwendung von Farben und der Vermittlung eines positiven Gefühls. Ihre Plakate lauten z.B.: „Snack dein Karma, eat happy!“, „don’t worry EAT HAPPY“ oder „Brutzle dein Karma, eat happy!“. Letzteres spricht die Fleischalternative an. Auch die Marke Karma setzt auf handschriftlich typografische Elemente. Dies wirkt der generellen Anonymität in der Werbung entgegen. Konventionelle Werbung hat unterschiedliche Ziele. Einige davon sind, die Aufmerksamkeit der Betrachter zu erlangen, Wissen über Produkte und ihre Vorteile zu kommunizieren, das Image zu verbessern sowie Probier- und Wiederholungskäufe zu generieren. Klassisch wird jedoch keine Verbindung mit dem Betrachter eingegangen. Die Kommunikation bleibt eine anonyme Einwegkommunikation. Anders als bei der Bewerbung der veganen Lebensmittel durch die Migros. Die Plakate von v-love suchen den Kontakt, die Verbindung zum Publikum. Dafür wird eine direkte Ansprache, mit einer lockeren und lässigen Art eingesetzt. Die Verbindung entsteht durch die Generierung von Nähe, Natürlichkeit und Echtheit. Dazu trägt die materialisierte Schrift bei. Sie generiert die Vorstellung, dass eine reale Person diesen Text von Hand geschrieben hat. Sind die Plakatumsetzungen von v-love in Bezug auf der Verbindungsherstellung zum Betrachter gelungen? V-love vermittelt dem Betrachter ein Gefühl der freien Wahl, anstelle eines Appells. Ist dieses Vorgehen besser geeignet im Vergleich zur traditionellen Werbung?",
+    "applicaton": "Ewolack",
+    "author": "Chalid",
+    "subjectivity": 0.7,
+    "polarity": -0.4,
+    "confidence": 0.8
+}, {
+    "text": "Hallo Hanna. Nein das ist perfekt, vielen Dank.",
+    "applicaton": "Ewolack",
+    "author": "Chalid",
+    "subjectivity": 0.5,
+    "polarity": 1,
+    "confidence": 0.4
+}, {
+    "text": "Danke vielmals!",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.4,
+    "polarity": 0.9,
+    "confidence": 0.2
+}, {
+    "text": "Oh nein. Wie denn unterschiedlich? Ouu. Aber ihr findet sicher einen guten Kompromiss. Oder er macht dann halt mehr Elektroniksachen und du etwas anderes am Projekt.",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.5,
+    "polarity": 0.9,
+    "confidence": 0.4
+}, {
+    "text": "Ahh warte du bist heute gar nicht in der Schule? Oh noo. Ah ich dachte der Support wäre vor Ort. Sorry ich muss nächstens gerade aussteigen. Eh ich gehe sonst einfach mal hin und schaue ob sie dort ist? Ich schaue mal :) Also sie wäre hier. Also wie du willst. Es sind noch nicht so viele da, vielleicht machen paar auch über Zoom? Also du musst sonst auch nicht unbedingt kommen denke ich, wie du willst.. :) je nachdem würde ich dann halt am Mittag wieder nach Hause. Jep, komme gerade. Hanna ist sonst im Zoom (auf Slack wahrscheinlich?) am Bildschirm teilen. Also zum herkommen? Yayy ich hab etwas geschafft! Woahh krass. Hast du den Live Server noch an? Eh wenns geht gerne :) Dankee. Ah mann, localhost 3000 läuft wieder nicht. Hm. Über Liveserver 5500 geht zwar, aber es zeigt nur die Indexseite von test typography experiments2.",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.1,
+    "polarity": 0.5,
+    "confidence": 0.8
+}, {
+    "text": "Eh nein^^ Müsste man kommen? Ooh vielleicht habe ich es auch falsch verstanden. Ok. Ehm sonst könntest du auch zu mir kommen? Ueli ist nicht zu Hause. Oder ich komme trotzdem in die Schule. oh no. Ehm bin sonst um 10.30 dort. Wollen wir schnell 30min zoomen? Mhm ja denke schon. Ehm schnell zoom? Ein bisschen verpasst. Mache mich fertig. Ja. Einen Anfang geschafft. Nein es hiess du hättest irgendetwas verlassen darum habe ich es abgebrochen. Eh soll ich einen neuen Link senden? Ehm wie haben wir das gleich nochmal gelöst? Bist du auch im Zoom? Ah eigentlich nicht sooo spannend.",
+    "applicaton": "Whatsapp",
+    "author": "Chalid",
+    "subjectivity": 0.5,
+    "polarity": 0.7,
+    "confidence": 0.5
+}, {
+    "text": "Morheus genisst die Aussicht. Nicht sehr gut und deiner? Ja, wir haben noch einen IDA Salon bis 19.00 Uhr.",
+    "applicaton": "Whatsapp",
+    "author": "Chalid",
+    "subjectivity": 0.2,
+    "polarity": -0.3,
+    "confidence": 0.6
+}, {
+    "text": "Mausefalle ist bereit.",
+    "applicaton": "Whatsapp",
+    "author": "Chalid",
+    "subjectivity": 0.7,
+    "polarity": -0.4,
+    "confidence": 0.3
+}, {
+    "text": "Hey.. ehm nein nicht aus Versehen, ich habe nicht gewusst welche ich soll, dann habe ich mal die englische genommen. Oh nein, hast du aus Versehen die bestellt? Oh no. Behältst du sie oder fragst du noch zum umtauschen? Mh ich weiss nicht, ich habe das Buch noch nicht geholt. Ich würde es wahrscheinlich morgen holen.",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.4,
+    "polarity": -0.2,
+    "confidence": 0.8
+}, {
+    "text": "Ja oke das stimmt schon. Ich habe glaube ich nicht alles so mega mitbekommen, weil ich sonst noch dazu gearbeitet habe. Aber ja, einmal kam das so und ich hab auch so gedacht, wtf. Ich dachte das wäre unsere gute Quelle. Oh mann, ich weiss auch nicht. Ich finde es mega schwierig eine Fragestellung zu finden, die nicht schon beantwortet ist. Vielleicht könnte man ihr ein Mail schreiben und mal fragen was sie meint?",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.8,
+    "polarity": -0.5,
+    "confidence": 0.9
+}, {
+    "text": "Essbar?",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.1,
+    "polarity": 0.3,
+    "confidence": 0.4
+}, {
+    "text": "Hey. Omg man sollte am Freitag oder am Wochenende baden gehen, es ist so warm. Ah das hört sich doch gut an. Ihr müsst euch noch bewerben? Wow. Mh wir haben mit der Dozentin begonnen Code zu bauen für unser Projekt.. was sehr nötig war. Jetzt sind wir am coden coden coden und ausprobieren. Chor war ok.. ich bin neben einer gesessen, die ich beim Chorfest kennengelernt, aber eigentlich nur einen Satz gewechselt habe.. ich hätte eigentlich mit ihr reden wollen, aber ich wusste nicht was, und dann hab ich mich unwohl gefühlt. Dann habe ich mir noch einigermassen viel Zeit genommen am Abend zum lesen, weil mein Buch so spannend ist! Und weil ich heute morgen später aufstehen musste, weil wir heute Selbststudiumstag haben. Jetzt konnte ich einigermassen sogar noch Schlaf nachholen. Das wünsche ich dir auch! Mhm. Uii. Bei uns leider.. ah ich weiss nicht. Etwas geht bereits, aber wir sind noch nirgends und irgendwie könnte man immer noch mehr machen und ich weiss nie wann dass es genug ist oder wann man noch weitermachen sollte.. meh. Und jetzt ist schon wieder halb 8, wtf.",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 1,
+    "polarity": -0.75,
+    "confidence": 0.8
+}, {
+    "text": "Nein leider nicht, Dienstagabend habe ich eben immer Chor.. Wie war es ? Ohh nicht? Ja ist gut :) Es geht leider wieder nur die Spline-Seite. Dieses Mail beim Beitreten auf den Server hat es iwie geheissen der Host habe eine Index-Seite auf dem Liveserver oder so ähnlich.. Aber ja. Wäre es ok wenn ich dann halt auf der index-Seite vom Experiment 2  auch noch die Links einbaue (temporär)? Damit ich an einem anderen arbeiten kann? Oke super, so klappt es immerhin mal. Hey :) Bist du noch im Live Share? Mich hat es gerade rausgeworfen. Mh ich versuchs nochmals über den alten. Ahh ja jetzt gehts wieder. Ahh ja. Es war irgendein Fehler mit der geladenen Schrift. Jetzt sollte es wieder funktionieren. Zuerst hab ich das ganze textToPoints mal auch noch von der p5 reference Seite 1:1 kopiert und in einem neuen Übungsordner in VS Code eingefügt.. ausser die Schrift, weil ich die ja anpassen muss. Als müsste der Fehler fast and der Schrift leigen.. aber keine Ahnung wieso. Ich hab mal noch Yann geschrieben, vielleicht sieht er es ja. Wollen wir um 2 zoomen?",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 0.4,
+    "polarity": 0.3,
+    "confidence": 0.9
+}, {
+    "text": "Also ich weiss nicht ab ich viel helfen kann, weil mein Englisch schlechter ist als deins. Aber wenn du möchtest, kann ich es schon mal durchlesen. Omg so schöön. Ui eine positive Überraschung. Das dritte Mal oder so. Uii. Hmm aber nimmst du es vielleicht fast zu genau? Ah ja ich hätte schon fast mal gefragt.",
+    "applicaton": "Whatsapp",
+    "author": "Sonja",
+    "subjectivity": 1,
+    "polarity": 1,
+    "confidence": 0.7
+}, {
+    "text": "Hallo Yann. Ich wollte die p5 Funktion textToPoints ausprobieren, aber irgendwie funktioniert es nicht. Es gibt mir folgende Fehlermeldung.. weisst du gerade, an was das liegen könnte? Die Strukur sieht bei mir so aus.. und die Verlinkung so.. Eigentlich sollte es ja schon stimmen. Danke vielmals fürs Anschauen. Komisch.. Ich habe die Schrift jetzt bei uns geändert, aber es kommt leider immer noch eine Fehlermeldung. Vielen Dank, jetzt geht es! Das war wohl wirklich die Schrift.",
+    "applicaton": "Ewolack",
+    "author": "Sonja",
+    "subjectivity": 0.1,
+    "polarity": -0.4,
+    "confidence": 0.6
+}, {
+    "text": "Ehm ich möchte noch ein wenig mit dem Pfad testen, ist es in Ordnung wenn wir uns um  ca. 10.00 Uhr treffen? Ich kann nacher gleich die visual studio code session starten. Ok hoffentlich schaffen wir es mit dem Server =) Toll. Ja klar. Hmm eigentlich schon. Hm sehe dich als Teilnehmer. Test 2. Ah jetzt nicht mehr. Neuer Link? Hmm wenn ich die Seite öffne steht nur Loading bei dir auch? Test 1. Ah ja. Yann wird sicher helfen können. Bin schon mal im Zoom. Ich habe eine Frage betreffend dem Conficence.",
+    "applicaton": "Whatsapp",
+    "author": "Chalid",
+    "subjectivity": 0.1,
+    "polarity": -0.2,
+    "confidence": 0.5
+}, {
+    "text": "Oh die arme Maus.",
+    "applicaton": "Whatsapp",
+    "author": "Chalid",
+    "subjectivity": 0.6,
+    "polarity": -0.8,
+    "confidence": 0.8
+}, {
+    "text": "Ah scheisse, das mit den Videos ist nächstes Mal. Heute ist nicht der letzte Tag. Ich esse später mit dir ok? Warte besser nicht auf mich. Ich esse gerade Kuchen. Ich trinke noch eins dann komme ich nach Hause.",
+    "applicaton": "Whatsapp",
+    "author": "Chalid",
+    "subjectivity": 0.5,
+    "polarity": -0.6,
+    "confidence": 0.8
+}]
