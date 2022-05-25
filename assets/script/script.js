@@ -44,7 +44,7 @@ function updateTextPathOffset(offset) {
     for(let n = 0; n < textPaths.length; n++) {
     textPaths[n].setAttribute('startOffset', offset) //Start Text
     }
-    }
+}
 
 //Verbindung Animation mit scrollen
 function onScroll() {
@@ -71,6 +71,8 @@ entry.target.classList.add('animate');
 titles.forEach(title => {
     observer.observe(title);
 })
+
+
 
 
 

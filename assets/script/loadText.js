@@ -19,7 +19,7 @@ function writeTextOnPath() {
          if(json[n].author=='Sonja'){
             sonja.appendChild(div);
          }
-         else{
+         else {
             chalid.appendChild(div); 
          }
     }
@@ -35,3 +35,18 @@ function showWhatsapp(){
         sonja.children[i].style.opacity = 0;
     }
 }
+
+
+
+
+//Toggle switch button
+var input = document.getElementById('toggleswitch');
+var outputtext = document.getElementById('status');
+
+input.addEventListener('change',function(){
+    if(this.checked) {
+        outputtext.innerHTML = "aktiv";
+    } else {
+        outputtext.innerHTML = "inaktiv";
+    }
+});
