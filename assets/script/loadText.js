@@ -42,8 +42,8 @@ printJSON();
 
 
 //Toggle switch button
-//Button für E-Mail und Word
-var input = document.getElementById('toggleswitch');
+//Button für Nur E-Mail und Word
+var input = document.getElementById('toggleswitch1');
 console.log(input);
 input.addEventListener('change', function () {
     if (this.checked) {
@@ -87,8 +87,8 @@ input.addEventListener('change', function () {
     }
 });
 
-//Button für Whatsapp
-/*var input = document.getElementById('toggleswitch');
+//Button für Nur Whatsapp
+var input = document.getElementById('toggleswitch2');
 console.log(input);
 input.addEventListener('change', function () {
     if (this.checked) {
@@ -129,4 +129,34 @@ input.addEventListener('change', function () {
             }
         }
     }
-});*/
+});
+
+//Button für Nur Chalid
+var input = document.getElementById('toggleswitch3');
+console.log(input);
+input.addEventListener('change', function() {
+    if (this.checked) {
+        console.log("aktiv")
+        let chalid = document.getElementById("text-path");
+        //Chalid
+        for (let i = 0; i < chalid.children.length; i++) {
+            if (chalid.children[i].classList()) {
+                chalid.children[i].style.display = "none";
+            }
+        }
+
+    } else {
+        console.log("inaktiv")
+            // show all again
+        let chalid = document.getElementById("text-path");
+        //Chalid
+        for (let i = 0; i < chalid.children.length; i++) {
+            if (chalid.children[i].classList()) {
+                chalid.children[i].style.display = "block";
+            }
+        }
+    }
+});
+
+
+//Button für Nur Sonja

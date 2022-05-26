@@ -36,7 +36,7 @@
 
 
 
-
+/*
 //Test-Chalid
 var textPaths = document.getElementsByClassName('animatedPath') //verknüpfung zu textpfad und ID
 
@@ -71,8 +71,4 @@ entry.target.classList.add('animate');
 titles.forEach(title => {
     observer.observe(title);
 })
-
-
-
-
-
+*/
