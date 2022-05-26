@@ -10,19 +10,6 @@
 </head>
 
 <body>
-    <a href="tests/test_p5_raster/test.html">Test p5 Raster</a>
-    <a href="tests/test_sentiment_analysis/index.html">Test Sentiment Analysis</a>
-    <a href="tests/test_typography_experiments_1.1/index.html">Test Typography 1.1(nur Text)></a>
-    <a href="tests/test_typography_experiments_1.2/index.html">Test Typography 1.2 (textToPoints)</a>
-    <a href="tests/test_typography_experiments_2/index.html">Test Typography 2</a>
-    <a href="tests/test_typography_experiments_3/index.html">Test Typography 3</a>
-    <a href="tests/test_typography_experiments_4/index.html">Test Typography 4</a>
-
-
-
-
-
-
     <div class="container center-fixed-element">
 
         <!--Grid conept extraction-->
@@ -31,8 +18,8 @@
         </div>
 
 
+        <!--SVG Pfad für Text: https://jakearchibald.github.io/svgomg/-->
         <!--Pfad Chalid-->
-        <!--https://jakearchibald.github.io/svgomg/-->
         <svg class="svg1 center-fixed-element" viewBox="0 0 1280 1024" style="enable-background:new 0 0 1280 1024"
             xml:space="preserve">                  
             <style type="text/css">
@@ -49,8 +36,6 @@
                 </textPath>
             </text>
         </svg>
-
-
 
         <!--Pfad Sonja-->
         <svg class="svg2 center-fixed-element" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 304.98 583.75">
@@ -70,12 +55,6 @@
                 </textPath>
             </text>
         </svg>
-
-
-
-
-
-
 
         <!-- 
         <div> 
@@ -104,31 +83,42 @@
 
     <!--Buttons-->
     <section class="section">
-        <!--E-Mail und Word-->
-        <div id="ergebnis" class="ergebnis"> <!--Aussehen Button-->
+        <!--Nur E-Mail und Word-->
+        <!--Aussehen Button-->
+        <!--<div id="ergebnis" class="ergebnis">
             <span id="status"></span>.
-        </div>     
-        <p class="buttontext">E-Mail und Word</p>
+        </div>-->
+        <p class="buttontext">Nur E-Mail und Word</p>
         <label class="toggle">
-            <input id="toggleswitch" type="checkbox">
+            <input id="toggleswitch1" type="checkbox">
             <span class="roundbutton"></span>
         </label>
 
-        <!--WhatsApp-->
-        <div id="ergebnis" class="ergebnis">
+        <!--Nur WhatsApp-->
+        <!--<div id="ergebnis" class="ergebnis">
             <span id="status"></span>.
-        </div>      
-        <p>WhatsApp</p>
+        </div>-->
+        <p>Nur WhatsApp</p>
         <label class="toggle">
-            <input id="toggleswitch" type="checkbox">
+            <input id="toggleswitch2" type="checkbox">
             <span class="roundbutton"></span>
         </label>
+
+        <!--Nur Chalid-->
+        <p>Nur Chalid</p>
+        <label class="toggle">
+            <input id="toggleswitch3" type="checkbox">
+            <span class="roundbutton"></span>
+        </label>
+
+        <!--Nur Sonja-->
+        <p>Nur Sonja</p>
+        <label class="toggle">
+            <input id="toggleswitch4" type="checkbox">
+            <span class="roundbutton"></span>
+        </label>
+
     </section>
-
-
-
-
-
 
 
 
