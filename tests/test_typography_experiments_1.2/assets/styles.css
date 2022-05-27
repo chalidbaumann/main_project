@@ -2,3 +2,56 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.navigationoben{
+    position:fixed;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    margin-bottom: 10px;
+    display: inline;
+    z-index: 1;
+    padding: 4px;
+}
+
+.homebutton{
+    display: flex;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 2px black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.homebutton:hover{
+    box-shadow: #3f3 10px 10px 10px;
+    background-color: rgb(242, 242, 242);
+}
+
+.w3large{
+    font-size: 60px;
+    text-align: center;
+
+}
+
+.containermenu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hinweishand{
+    margin-left: 20px;
+    font-size: 70px;
+}
+
+span{
+    content: "\261A";
+}
+
+
+a:hover{
+cursor: pointer;
+}

@@ -42,7 +42,7 @@ input.addEventListener('change', function () {
         //Chalid
         for (let i = 0; i < chalid.children.length; i++) {
             console.log(chalid.children[i].classList.contains("Whatsapp"));
-            if (chalid.children[i].classList.contains("Whatsapp")) {
+            if (chalid.children[i].classList.contains("Whatsapp")) { //alle WhatsApps nicht anzeigen
                 chalid.children[i].style.display = "none";
             }
 
@@ -50,7 +50,7 @@ input.addEventListener('change', function () {
         //Sonja
         for (let i = 0; i < sonja.children.length; i++) {
             console.log(sonja.children[i].classList.contains("Whatsapp"));
-            if (sonja.children[i].classList.contains("Whatsapp")) {
+            if (sonja.children[i].classList.contains("Whatsapp")) { 
                 sonja.children[i].style.display = "none";
             }
 
@@ -63,7 +63,7 @@ input.addEventListener('change', function () {
         let sonja = document.getElementById("text-path-two");
         //Chalid
         for (let i = 0; i < chalid.children.length; i++) {
-            if (chalid.children[i].classList.contains("Whatsapp")) {
+            if (chalid.children[i].classList.contains("Whatsapp")) { //alle WhatsApps wieder anzeigen
                 chalid.children[i].style.display = "block";
             }
         }
@@ -124,8 +124,6 @@ input.addEventListener('change', function () {
 
 
 
-
-
 //Button für Nur Chalid
 var input = document.getElementById('toggleswitch3');
 console.log(input);
@@ -133,25 +131,45 @@ input.addEventListener('change', function() {
     if (this.checked) {
         console.log("aktiv")
         let chalid = document.getElementById("text-path");
+        let sonja = document.getElementById("text-path-two");
         //Chalid
-        for (let i = 0; i < chalid.children.length; i++) {
-            if (chalid.children[i].classList()) {
-                chalid.children[i].style.display = "none";
-            }
+        sonja.style.display = "none";
         }
-
-    } else {
+    else {
         console.log("inaktiv")
             // show all again
         let chalid = document.getElementById("text-path");
+        let sonja = document.getElementById("text-path-two");
         //Chalid
-        for (let i = 0; i < chalid.children.length; i++) {
-            if (chalid.children[i].classList()) {
-                chalid.children[i].style.display = "block";
-            }
+        sonja.style.display = "block";
         }
-    }
 });
 
 
+    
 //Button für Nur Sonja
+var input = document.getElementById('toggleswitch4');
+console.log(input);
+input.addEventListener('change', function() {
+    if (this.checked) {
+        console.log("aktiv")
+        let chalid = document.getElementById("text-path");
+        let sonja = document.getElementById("text-path-two");
+        //Sonja
+        chalid.style.display = "none";
+        }
+    else {
+        console.log("inaktiv")
+            // show all again
+        let chalid = document.getElementById("text-path");
+        let sonja = document.getElementById("text-path-two");
+        //Sonja
+        chalid.style.display = "block";
+        }
+});
+
+
+    
+
+
+

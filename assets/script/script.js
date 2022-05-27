@@ -10,7 +10,7 @@ function updateTextPathOffset(offset) {
 //Verbindung Animation mit scrollen
 function onScroll() {
     requestAnimationFrame(function() {
-        updateTextPathOffset(window.scrollY * 2)
+        updateTextPathOffset(window.scrollY * 4)
     })
 }
 

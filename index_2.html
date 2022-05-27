@@ -13,13 +13,33 @@
 
 <body>
 
-<div class="dropdown">
-<span>Menu</span>
-<div class="dropdown-content">
-    <a href="projektbeschrieb.html"><h2>Projektbeschrieb</h2></a>
-    <a href="prozess.html"><h2>Prozess</h2></a>
-</div>
-</div>
+
+    <!--Menu dropdown-->
+    <ul class="dropdown">
+        <li>
+            <div>Menu</div>
+    <!--first level dropdown-->
+            <ul>
+                <li><a href="projektbeschrieb.html">Projektbeschrieb</a></li>
+                <li><a href="prozess.html">Galerie</a></li>
+                <li>
+                    <div>Tests</div>
+                    <!--Second level sub dropdown-->
+                    <ul>
+                    <li><a href="tests/test_typography_experiments_1.1/index.html">Test 1</a></li>
+                    <li><a href="tests/test_typography_experiments_2/index.html">Test 2</a></li>
+                    <li><a href="tests/test_typography_experiments_3/index.html">Test 3</a></li>
+                    <li><a href="tests/test_typography_experiments_4/index.html">Test 4</a></li>
+                    <li><a href="index_1.html">Test 5</a></li>
+                    </ul>
+                </li>
+            </ul>    
+        </li>
+    </ul>
+
+
+
+
 
     <div class="container center-fixed-element">
         <!--SVG Pfad für Text: https://jakearchibald.github.io/svgomg/-->
@@ -29,28 +49,28 @@
                 .text {
                     font-weight: bold;
                     font-family:'Quicksand', sans-serif;
-                    fill: #03558c;}
+                    fill: #00ffff;
+                }
             </style>
             <path id="our-text" class="st0" d=" M480.39 477.04V692h-33.53V478.04H433v193.72h-16.65V395H401v323.45h-25.5V259l-17.33-1.35v582.99L341 841l-.17-714.21L294 127l-.5 794-20.33-.69V45l-25.06.35V954.8l-22.27.31V44.65l-22.28.7V953.8l-25.05-.65.49-831.65-47.83-.28v806l-17.33-.7V306.38l-42.16.25v441.3H55v-403.1H39v345.45H21V476.6"/>
-            <text y="10" font-size="15">
+            <text y="10" font-size="8">
                 <textPath id="text-path" class="text animatedPath" href="#our-text" startOffset="10">           
                 </textPath>
             </text>
         </svg>
 
         <!--Pfad Sonja-->
-        <svg class="svg2 center-fixed-element" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 304.98 583.75">
-            <style type="text/css">
+        <svg class="svg2 center-fixed-element" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 304.98 583.96">
+            <style type="text/css">.st0{fill:none;stroke:#1d1d1b00;stroke-miterlimit:10}
                 .text-rot {
                     font-weight: bold;
                     font-family: 'Quicksand', sans-serif;
-                    fill: #be0f0f;
+                    fill: #ffff00;
                 }
             </style>
-            <path id="our-text-two"
-                d=" M480.39 477.04V692h-33.53V478.04H433v193.72h-16.65V395H401v323.45h-25.5V259l-17.33-1.35v582.99L341 841l-.17-714.21L294 127l-.5 794-20.33-.69V45l-25.06.35V954.8l-22.27.31V44.65l-22.28.7V953.8l-25.05-.65.49-831.65-47.83-.28v806l-17.33-.7V306.38l-42.16.25v441.3H55v-403.1H39v345.45H21V476.6"
-                style="fill:none;stroke:rgba(0, 0, 0, 0);stroke-miterlimit:10;stroke-width:.81px"/>
-            <text y="10" font-size="15" font-family="Merriweather Sans, sans-serif;">
+            <path id="our-text-two" class="st0"
+                d="M7.97 421.83V159.31h8.11v324.95h12.25V97.74h19.03v447.97h28.09V27.69h15.14v542.76h21.76V3.12h20.07v580.34h8.28V.52l11.79.45v582.49h17.2V5.48h7.11v573.75h18.42V19.44h14.08v539.04h16.52V54.64h22.51v445.33h28.92V160.09h17.16v247.76"/>
+            <text y="10" font-size="5" font-family="Merriweather Sans, sans-serif;">
                 <textPath id="text-path-two" class="text-rot animatedPath" href="#our-text-two" startOffset="20">            
                 </textPath>
             </text>
@@ -60,79 +80,69 @@
 
 
     <!--Filter Buttons-->
-    <section class="containernav">
+    <section class="flex-container">
         <!--Nur E-Mail und Word-->
-        <!--Aussehen Button-->
-        <!--<div id="ergebnis" class="ergebnis">
-            <span id="status"></span>.
-        </div>-->
-    <div class="navbox">
-
-        <div>  
-        <p class="navbutton">Nur E-Mail/Word</p>
-        <label class="toggle">
-            <input id="toggleswitch1" type="checkbox">
-            <span class="roundbutton"></span>
-        </label>
+        <div>
+            <p class="navbutton">Nur E-Mail/Word</p>
+            <label class="toggle">
+                <input id="toggleswitch1" type="checkbox">
+                <span class="roundbutton"></span>
+            </label>
         </div>
 
         <!--Nur WhatsApp-->
-        <!--<div id="ergebnis" class="ergebnis">
-            <span id="status"></span>.
-        </div>-->
         <div>
-        <p class="navbutton">Nur WhatsApp</p>
-        <label class="toggle">
-            <input id="toggleswitch2" type="checkbox">
-            <span class="roundbutton"></span>
-        </label>
+            <p class="navbutton">Nur WhatsApp</p>
+            <label class="toggle">
+                <input id="toggleswitch2" type="checkbox">
+                <span class="roundbutton"></span>
+            </label>
         </div>
 
         <!--Nur Chalid-->
         <div>
-        <p class="navbutton">Nur Chalid</p>
-        <label class="toggle">
-            <input id="toggleswitch3" type="checkbox">
-            <span class="roundbutton"></span>
-        </label>
+            <p class="navbutton">Nur Chalid</p>
+            <label class="toggle">
+                <input id="toggleswitch3" type="checkbox">
+                <span class="roundbutton"></span>
+            </label>
         </div>
 
         <!--Nur Sonja-->
         <div>
-        <p class="navbutton">Nur Sonja</p>
-        <label class="toggle">
-            <input id="toggleswitch4" type="checkbox">
-            <span class="roundbutton"></span>
-        </label>
+            <p class="navbutton">Nur Sonja</p>
+            <label class="toggle">
+                <input id="toggleswitch4" type="checkbox">
+                <span class="roundbutton"></span>
+            </label>
         </div>
 
         <!--subjektivity-->
         <div>
-        <p class="navbutton">subjectivity</p>
-        <label class="toggle">
-        <input id="toggleswitch5" type="checkbox">
-        <span class="roundbutton"></span>
-        </label>
+            <p class="navbutton">subjectivity</p>
+            <label class="toggle">
+                <input id="toggleswitch5" type="checkbox">
+                <span class="roundbutton"></span>
+            </label>
         </div>
 
         <!--polarity-->
         <div>
-        <p class="navbutton">polarity</p>
-        <label class="toggle">
-        <input id="toggleswitch6" type="checkbox">
-        <span class="roundbutton"></span>
-        </label>
+            <p class="navbutton">polarity</p>
+            <label class="toggle">
+                <input id="toggleswitch6" type="checkbox">
+                <span class="roundbutton"></span>
+            </label>
         </div>
 
         <!--conficence-->
         <div> 
-        <p class="navbutton">confidence</p>
-        <label class="toggle">
-        <input id="toggleswitch7" type="checkbox">
-        <span class="roundbutton"></span>
-        </label> 
-        </div>
-    </div>  
+            <p class="navbutton">confidence</p>
+            <label class="toggle">
+                <input id="toggleswitch7" type="checkbox">
+                <span class="roundbutton"></span>
+            </label> 
+        </div> 
     </section>
 
 

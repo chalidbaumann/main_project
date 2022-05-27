@@ -24,8 +24,14 @@
 
 
 
+p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+}
+
 a{
     text-decoration: none;
+    color: black;
 }
 
 body {
@@ -45,7 +51,7 @@ h2{
 }
 
 span{
-    font-family: 'Noto Sans', sans-serif;  ;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 0;
@@ -77,12 +83,12 @@ svg {
 
 /*Container = Hintergrundfläche Sentiment Analysis Fingerabdruck*/
 .container {
-    background-color: white;
+    background-color: black;
     flex-direction: column;
     flex-wrap: wrap;
     height: 100vh;
-   /*h width: 75%;*/
-   width: 50%;
+    /*h width: 75%;*/
+    width: 50%;
     position: relative;
     left: 30px;
     margin-right: 0;
@@ -100,14 +106,14 @@ svg {
 }
 
 .svg1 {
-    width: 50vw;
-    height: 50vw;
+    width: 82vw;
+    height: 82vw;
     z-index: 2;
     pointer-events: none;
 }
 .svg2 {
-    width: 25vw;
-    height: 25vw;
+    width: 75vw;
+    height: 75vw;
     z-index: 1;
     pointer-events: none;
 }
@@ -200,38 +206,38 @@ input:checked + .roundbutton:before  {
 
 
 
-
-/*weisse Box - Rahmen für kleinere navbox*/
-.containernav{
-    /*display: flex;*/
-   /* flex-wrap: wrap;*/
-    /*flex-direction: column;*/
+/*Flexbox für Buttons und Text*/
+/*Äussere Box*/
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*justify-content: space-between;*/
     /*column-count: 2;*/
     /*column-width: 50%;
     column-gap: 30px;*/
-    height: 300vh;
-    width: 400px;
-    margin-top: 200px;
+    height: 900px;
+    width: 700px;
+    margin-top: 250px;
     margin-left: 0;
     background-color: black;
 }
 
 /*Hier hinein kommen die Buttons*/
 .navbox{
-flex-direction: column;
-column-count: 2;
-flex-wrap: wrap;
-column-width: 100px;
-column-gap: 40px;
-margin-top: 50px;
-margin-left: 10px;
-height: 600px;
-width: 300px;
-position: fixed;
-align-items: center;
-justify-content:flex-start;
-flex-wrap: wrap;
-
+    flex-direction: row;
+    column-count: 2;
+    flex-wrap: wrap;
+    column-width: 100px;
+    column-gap: 40px;
+    margin-top: 50px;
+    margin-left: 10px;
+    height: 600px;
+    width: 300px;
+    position: fixed;
+    align-items: center;
+    justify-content:flex-start;
+    flex-wrap: wrap;
 }
 
 /*Text zum Button*/
@@ -240,11 +246,16 @@ flex-wrap: wrap;
     font-family:'Quicksand', sans-serif;
     text-align: left;
     margin-left: 40px;
-    margin-bottom: 30px;
-    width: 50px;
+    margin-bottom: 9px;
+    margin-top: 30px;
+    width: 500px;
 }
 
 
+
+
+
+/*dropdown menu
 .dropdown{
 position:fixed;
 display: flex;
@@ -261,10 +272,11 @@ margin-top: 15px;
 margin-left: 55px;
 box-shadow: rgba(51, 255, 51, 0) 10px 10px 10px;
 }
+*/
 
+/*dropdown elemente 1. Stufe
 .dropdown-content{
     display: none;
-    /*flex-direction: column;*/
     position: absolute;
     justify-content: center;
     background-color: #f9f9f9;
@@ -278,10 +290,124 @@ box-shadow: rgba(51, 255, 51, 0) 10px 10px 10px;
 
 .dropdown:hover .dropdown-content{
     box-shadow: #3f3 10px 10px 10px;
-    background-color: rgb(242, 242, 242);
     cursor: pointer;
     display: block;
     z-index: 2;
     text-decoration: none;
 }
 
+.dropdown-content a{
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover{
+background-color: rgb(161, 158, 153);
+}
+*/
+
+/*subnavigation menu*/
+/*
+.subnav-content{
+    display: none;
+    position: absolute;
+    justify-content: center;
+    box-shadow:  8px 16px 0px rgba(0,0,0,0.2);
+    left: 20px;
+    overflow: hidden;
+}*/
+
+/*
+.subnav-content:hover .subnav-content{
+    box-shadow: #3f3 10px 10px 10px;
+    ackground-color: rgb(242, 242, 242);
+    cursor: pointer;
+    display: block;
+    z-index: 2;
+    text-decoration: none;
+}
+*/
+
+
+
+
+.dropdown {
+    /* Border */
+    border: solid 5px black;;
+    background-color: white;
+    display: flex;
+    /* Reset list styles */
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-left: 30px;
+    padding-top: 0;
+    padding-left: 0;
+    z-index: 6;
+    font-family: 'Noto Sans', sans-serif;  ;
+    font-size: 30px;
+    width: 150px;
+}
+
+.dropdown li {
+    /* Spacing */
+    padding: 8px;
+    background-color: white;
+    /*border: black 5px;*/
+    /* Used to position the sub dropdown */
+    position: relative;
+    z-index: 6;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    width: 150px;
+    transition-duration: 0.2s;
+}
+
+/* The sub dropdown */
+.dropdown ul {
+    z-index: 6;
+    /* Border */
+   /* border: 2px solid rgb(0, 0, 0);*/
+
+    /* Hidden by default */
+    display: none;
+
+    /* Absolute position */
+    left: 0;
+    position: absolute;
+    top: 100%;
+
+    /* Reset styles */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    /* Width */
+    width: 150px;
+
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+}
+
+/* The second level sub dropdown */
+.dropdown ul ul {
+    z-index: 6;
+    left: 100%;
+    position: absolute;
+    top: 0;
+}
+
+/* Change background color of list item when being hovered */
+.dropdown li:hover {
+    z-index: 6;
+    background-color: rgba(227, 227, 227, 0);
+    cursor: pointer;
+}
+
+/* Show the direct sub dropdown when hovering the list item */
+.dropdown li:hover > ul {
+    z-index: 6;
+    display: block;
+    cursor: pointer;
+    background-color: aquamarine;
+}
