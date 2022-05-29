@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles_2.css">
     <title>Written Emotions</title>
+    <script src="Libraries/p5.min.js"></script>
+    <link rel="stylesheet" href="assets/styles_2.css">
 </head>
 
 
@@ -27,10 +28,12 @@
                     <!--Second level sub dropdown-->
                     <ul>
                     <li><a href="tests/test_typography_experiments_1.1/index.html">Test 1</a></li>
-                    <li><a href="tests/test_typography_experiments_2/index.html">Test 2</a></li>
-                    <li><a href="tests/test_typography_experiments_3/index.html">Test 3</a></li>
-                    <li><a href="tests/test_typography_experiments_4/index.html">Test 4</a></li>
-                    <li><a href="index_1.html">Test 5</a></li>
+                    <li><a href="tests/test_typography_experiments_1.2/index.html">Test 2</a></li>      
+                    <li><a href="tests/test_typography_experiments_1.3/index.html">Test 3</a></li>                
+                    <li><a href="tests/test_typography_experiments_2/index.html">Test 4</a></li>
+                    <li><a href="tests/test_typography_experiments_3/index.html">Test 5</a></li>
+                    <li><a href="tests/test_typography_experiments_4/index.html">Test 6</a></li>
+                   <!-- <li><a href="index_1.html">Test 6</a></li> -->
                     </ul>
                 </li>
             </ul>    
@@ -49,7 +52,6 @@
                 .text {
                     font-weight: bold;
                     font-family:'Quicksand', sans-serif;
-                    fill: #00ffff;
                 }
             </style>
             <path id="our-text" class="st0" d=" M480.39 477.04V692h-33.53V478.04H433v193.72h-16.65V395H401v323.45h-25.5V259l-17.33-1.35v582.99L341 841l-.17-714.21L294 127l-.5 794-20.33-.69V45l-25.06.35V954.8l-22.27.31V44.65l-22.28.7V953.8l-25.05-.65.49-831.65-47.83-.28v806l-17.33-.7V306.38l-42.16.25v441.3H55v-403.1H39v345.45H21V476.6"/>
@@ -60,12 +62,11 @@
         </svg>
 
         <!--Pfad Sonja-->
-        <svg class="svg2 center-fixed-element" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 304.98 583.96">
+        <svg class="svg2 center-fixed-element" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 304.98 583.96" id="Ebene_2">
             <style type="text/css">.st0{fill:none;stroke:#1d1d1b00;stroke-miterlimit:10}
                 .text-rot {
                     font-weight: bold;
                     font-family: 'Quicksand', sans-serif;
-                    fill: #ffff00;
                 }
             </style>
             <path id="our-text-two" class="st0"
@@ -80,7 +81,7 @@
 
 
     <!--Filter Buttons-->
-    <section class="flex-container">
+    <section class="flex-container navbox">
         <!--Nur E-Mail und Word-->
         <div>
             <p class="navbutton">Nur E-Mail/Word</p>

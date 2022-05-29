@@ -3,30 +3,15 @@ body{
     padding: 0;
 }
 
-
-a{
-    text-decoration: none;
-}
-
-span{
-    content: "\261A";
-}
-
-
-a:hover{
-cursor: pointer;
-}
-
 .navigationoben{
     position:fixed;
-   /* background-color: rgb(255, 255, 255);*/
+    /*background-color: rgb(255, 255, 255);*/
     height: 300px;
     margin-bottom: 10px;
     display: inline;
     z-index: 1;
     padding: 4px;
 }
-
 
 .homebutton{
     display: flex;
@@ -35,10 +20,10 @@ cursor: pointer;
     height: 100px;
     border-radius: 50%;
     border: solid 2px black;
-    background-color: white;
     text-align: center;
     align-items: center;
     justify-content: center;
+    background-color: white;
 }
 
 .homebutton:hover{
@@ -49,7 +34,7 @@ cursor: pointer;
 .w3large{
     font-size: 60px;
     text-align: center;
-    align-self: center;
+
 }
 
 .containermenu{
@@ -64,19 +49,11 @@ cursor: pointer;
     color: white;
 }
 
-.fa-home:before {
-    content: "\f015";
-    font-size: xxx-large;
-    align-items: center;
+span{
+    content: "\261A";
 }
 
-.fa {
-    /*display: flex;*/
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    align-items: center;
-    flex-direction: row;
+
+a:hover{
+cursor: pointer;
 }
