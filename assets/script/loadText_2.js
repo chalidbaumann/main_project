@@ -67,6 +67,13 @@ function draw() {
 
 
 //Toggle switch button
+//Button Startseite
+var input = document.getElementById('toggleswitch_startseite');
+input.addEventListener('change', function() {
+    if (this.checked) window.location.href = 'index_2.html';
+});
+
+
 //Button für Nur E-Mail und Word
 var input = document.getElementById('toggleswitch1');
 console.log(input);

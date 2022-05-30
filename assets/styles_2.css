@@ -25,7 +25,6 @@
 
 
 p{
-    font-family: 'Noto Sans', sans-serif;
     font-size: 15px;
 }
 
@@ -81,7 +80,7 @@ svg {
     z-index: -1;
 }*/
 
-/*Container = Hintergrundfläche Sentiment Analysis Fingerabdruck*/
+/*Container = Plakat Hintergrundfläche*/
 .container {
     background-color: white;
     flex-direction: column;
@@ -105,6 +104,7 @@ svg {
     -o-transform: translate(-50%, -50%);
 }
 
+/*SVG-Pfade*/
 .svg1 {
     width: 82vw;
     height: 82vw;
@@ -119,21 +119,7 @@ svg {
 }
 
 
-/*.svg-fit {
-    object-fit: cover;
-    object-position: 120%;
-    overflow: hidden;
-}*/
-
-/*Button toggle switch*/
-/* The switch - the box around the slider */
-/*.ergebnis {
-    font-size: 2rem;
-    font-family: sans-serif;
-    padding: 2rem 0 2rem 2rem;
-    color: white;
-}*/
-
+/*Toggle switch button*/
 .toggle {
     margin:0 0 0 2rem;
     position: relative;
@@ -212,11 +198,6 @@ input:checked + .roundbutton:before  {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /*justify-content: space-between;*/
-    /*column-count: 2;*/
-    /*column-width: 50%;
-    column-gap: 30px;*/
-    /*height: 900px;*/
     width: 700px;
     margin-top: 250px;
     margin-left: 0;
@@ -233,7 +214,6 @@ input:checked + .roundbutton:before  {
     margin-top: 450px;
     margin-left: 10px;
     height: 470px;
-    /*width: 300px;*/
     position: fixed;
     align-items: flex-start;
     justify-content:space-between;
@@ -254,84 +234,7 @@ input:checked + .roundbutton:before  {
 
 
 
-
-
-/*dropdown menu
-.dropdown{
-position:fixed;
-display: flex;
-align-items: center;
-justify-content: center;
-cursor: pointer;
-z-index: 4;
-height: 100px;
-width: 100px;
-border-radius: 50%;
-border: solid 2px black;;
-background-color: white;
-margin-top: 15px;
-margin-left: 55px;
-box-shadow: rgba(51, 255, 51, 0) 10px 10px 10px;
-}
-*/
-
-/*dropdown elemente 1. Stufe
-.dropdown-content{
-    display: none;
-    position: absolute;
-    justify-content: center;
-    background-color: #f9f9f9;
-    min-width: 170px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 3; 
-    top: 100px;
-    left: 10px;
-}
-
-.dropdown:hover .dropdown-content{
-    box-shadow: #3f3 10px 10px 10px;
-    cursor: pointer;
-    display: block;
-    z-index: 2;
-    text-decoration: none;
-}
-
-.dropdown-content a{
-    color: black;
-    text-decoration: none;
-}
-
-.dropdown-content a:hover{
-background-color: rgb(161, 158, 153);
-}
-*/
-
-/*subnavigation menu*/
-/*
-.subnav-content{
-    display: none;
-    position: absolute;
-    justify-content: center;
-    box-shadow:  8px 16px 0px rgba(0,0,0,0.2);
-    left: 20px;
-    overflow: hidden;
-}*/
-
-/*
-.subnav-content:hover .subnav-content{
-    box-shadow: #3f3 10px 10px 10px;
-    ackground-color: rgb(242, 242, 242);
-    cursor: pointer;
-    display: block;
-    z-index: 2;
-    text-decoration: none;
-}
-*/
-
-
-
-
+/*Dropdown-Menu*/
 .dropdown {
     /* Border */
     border: solid 5px black;;

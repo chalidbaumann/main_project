@@ -13,12 +13,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
 
 
+
+body{
+    background-color: black;
+}
+
+
 h1{
     font-family: 'Noto Sans', sans-serif;
     font-weight: 700px;
     font-size: 100px;  
+    margin-top: 0px;
     margin-bottom: 0;
     margin-top: 0;
+    position: sticky;
+    color: white;
+}
+
+.h1{
+top: 200px;
 }
 
 h2{
@@ -51,22 +64,16 @@ cursor: pointer;
 }
 
 .navigationoben{
-    position:fixed;
-    background-color: rgb(255, 255, 255);
-    height: 300px;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0);
+    /*height: flex;*/
     margin-bottom: 10px;
     display: inline;
     z-index: 1;
     padding: 4px;
+    margin-bottom: 100px;
 }
 
-.container{
-    margin-top: 330px;
-    position: absolute;
-    width: 700px;
-    column-count: 2;
-    column-gap: 30px;
-}
 
 .homebutton{
     display: flex;
@@ -78,6 +85,8 @@ cursor: pointer;
     text-align: center;
     align-items: center;
     justify-content: center;
+    background-color: white;
+    z-index: 10;
 }
 
 .homebutton:hover{
@@ -100,15 +109,21 @@ cursor: pointer;
 .hinweishand{
     margin-left: 20px;
     font-size: 70px;
+    color: white;
 }
 
 
 
 
+
+
 /*Galery*/
-div.gallery {
-    border: 1px solid #ccc;
+  div.gallery {
+    border: 1px solid rgba(204, 204, 204, 0);
+    background-color: white;
+    margin-bottom: 15px;;
   }
+
   
   div.gallery:hover {
     border: 1px solid #777;
@@ -116,12 +131,17 @@ div.gallery {
   
   div.gallery img {
     width: 100%;
-    height: auto;
+    height: 300px;
+    position: inherit;
+    object-fit: cover;
   }
   
   div.desc {
-    padding: 15px;
+    padding: 20px;
     text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    text-align: left;
   }
   
   * {
@@ -152,3 +172,6 @@ div.gallery {
     display: table;
     clear: both;
   }
+
+
+ 
