@@ -16,11 +16,10 @@ function writeTextOnPath() {
         let div = document.createElementNS("http://www.w3.org/2000/svg", "tspan");
         div.textContent += json[n]['text'];
         div.classList.add(json[n]['application']);
-        if(json[n]['author'] =='Sonja'){
+        if (json[n]['author'] == 'Sonja') {
             sonja.appendChild(div);
-        }
-        else {
-            chalid.appendChild(div); 
+        } else {
+            chalid.appendChild(div);
         }
     }
 }
@@ -59,7 +58,6 @@ function draw() {
     text(json[count].text, 50, 50, 500, window.innerHeight);
 
     count++;
-
 }
 
 
@@ -77,7 +75,7 @@ input.addEventListener('change', function() {
 //Button für Nur E-Mail und Word
 var input = document.getElementById('toggleswitch1');
 console.log(input);
-input.addEventListener('change', function () {
+input.addEventListener('change', function() {
     if (this.checked) {
         console.log("aktiv")
         let chalid = document.getElementById("text-path");
@@ -93,7 +91,7 @@ input.addEventListener('change', function () {
         //Sonja
         for (let i = 0; i < sonja.children.length; i++) {
             console.log(sonja.children[i].classList.contains("Whatsapp"));
-            if (sonja.children[i].classList.contains("Whatsapp")) { 
+            if (sonja.children[i].classList.contains("Whatsapp")) {
                 sonja.children[i].style.display = "none";
             }
 
@@ -101,7 +99,7 @@ input.addEventListener('change', function () {
 
     } else {
         console.log("inaktiv")
-        // show all again
+            // show all again
         let chalid = document.getElementById("text-path");
         let sonja = document.getElementById("text-path-two");
         //Chalid
@@ -125,7 +123,7 @@ input.addEventListener('change', function () {
 //Button für Nur Whatsapp
 var input = document.getElementById('toggleswitch2');
 console.log(input);
-input.addEventListener('change', function () {
+input.addEventListener('change', function() {
     if (this.checked) {
         console.log("aktiv")
         let chalid = document.getElementById("text-path");
@@ -147,7 +145,7 @@ input.addEventListener('change', function () {
 
     } else {
         console.log("inaktiv")
-        // show all again
+            // show all again
         let chalid = document.getElementById("text-path");
         let sonja = document.getElementById("text-path-two");
         //Chalid
@@ -177,19 +175,18 @@ input.addEventListener('change', function() {
         let sonja = document.getElementById("text-path-two");
         //Chalid
         sonja.style.display = "none";
-        }
-    else {
+    } else {
         console.log("inaktiv")
             // show all again
         let chalid = document.getElementById("text-path");
         let sonja = document.getElementById("text-path-two");
         //Chalid
         sonja.style.display = "block";
-        }
+    }
 });
 
 
-    
+
 //Button für Nur Sonja
 var input = document.getElementById('toggleswitch4');
 console.log(input);
@@ -200,15 +197,14 @@ input.addEventListener('change', function() {
         let sonja = document.getElementById("text-path-two");
         //Sonja
         chalid.style.display = "none";
-        }
-    else {
+    } else {
         console.log("inaktiv")
             // show all again
         let chalid = document.getElementById("text-path");
         let sonja = document.getElementById("text-path-two");
         //Sonja
         chalid.style.display = "block";
-        }
+    }
 });
 
 
@@ -257,6 +253,3 @@ input.addEventListener('change', function () {
         }
     }
 });*/
-
-
-

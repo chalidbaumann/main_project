@@ -1,28 +1,31 @@
-
-
 /*Noto Sans Black 900*/
+
+
 /*h1*/
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap');
 
 /*Noto Sans Regular 400*/
+
+
 /*h2*/
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 /*Noto Sans Light 300*/
+
+
 /*p*/
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
-
-
-
-body{
+body {
     background-color: black;
 }
 
-
-h1{
+h1 {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 700px;
-    font-size: 100px;  
+    font-size: 100px;
     margin-top: 0px;
     margin-bottom: 0;
     margin-top: 0;
@@ -30,19 +33,20 @@ h1{
     color: white;
 }
 
-.h1{
-top: 200px;
+.h1 {
+    top: 200px;
 }
 
-h2{
-    font-family: 'Noto Sans', sans-serif;  ;
+h2 {
+    font-family: 'Noto Sans', sans-serif;
+    ;
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 0;
     margin-top: 0;
 }
 
-p{
+p {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 200;
     font-size: 15px;
@@ -50,20 +54,19 @@ p{
     line-height: 1.4;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-span{
+span {
     content: "\261A";
 }
 
-
-a:hover{
-cursor: pointer;
+a:hover {
+    cursor: pointer;
 }
 
-.navigationoben{
+.navigationoben {
     position: fixed;
     background-color: rgba(255, 255, 255, 0);
     /*height: flex;*/
@@ -74,8 +77,7 @@ cursor: pointer;
     margin-bottom: 100px;
 }
 
-
-.homebutton{
+.homebutton {
     display: flex;
     cursor: pointer;
     width: 100px;
@@ -89,89 +91,89 @@ cursor: pointer;
     z-index: 10;
 }
 
-.homebutton:hover{
+.homebutton:hover {
     box-shadow: #3f3 10px 10px 10px;
     background-color: rgb(242, 242, 242);
 }
 
-.w3large{
+.w3large {
     font-size: 60px;
     text-align: center;
-
 }
 
-.containermenu{
+.containermenu {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.hinweishand{
+.hinweishand {
     margin-left: 20px;
     font-size: 70px;
     color: white;
 }
 
 
-
-
-
-
 /*Galery*/
-  div.gallery {
+
+div.gallery {
     border: 1px solid rgba(204, 204, 204, 0);
     background-color: white;
-    margin-bottom: 15px;;
-  }
+    margin-bottom: 15px;
+    ;
+}
 
-  
-  div.gallery:hover {
+div.gallery:hover {
     border: 1px solid #777;
-  }
-  
-  div.gallery img {
+}
+
+div.gallery img {
     width: 100%;
     height: 300px;
     position: inherit;
     object-fit: cover;
-  }
-  
-  div.desc {
+}
+
+div.desc {
     padding: 20px;
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
     font-size: 15px;
     text-align: left;
-  }
-  
-  * {
+}
+
+* {
     box-sizing: border-box;
-  }
-  
-  .responsive {
+}
+
+.responsive {
     padding: 0 6px;
     float: left;
     width: 24.99999%;
-  }
-  
-  @media only screen and (max-width: 700px) {
+}
+
+@media only screen and (max-width: 700px) {
     .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
+        width: 49.99999%;
+        margin: 6px 0;
     }
-  }
-  
-  @media only screen and (max-width: 500px) {
+}
+
+@media only screen and (max-width: 500px) {
     .responsive {
-      width: 100%;
+        width: 100%;
     }
-  }
-  
-  .clearfix:after {
+}
+
+.clearfix:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
 
- 
+/*Anderer Cursor*/
+
+.mycursor {
+    cursor: url("img/textcursor_aquamarine.png"), pointer;
+}
