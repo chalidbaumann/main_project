@@ -1,0 +1,180 @@
+/*https://youtu.be/M8Gq_HPDXsU*/
+
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*/
+
+
+/*Schrift Chalid: Merriweather Sans, Regular 400 Italic*/
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&display=swap');
+
+/*Quicksand, Regular 400*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Mirza:wght@400;500&family=Mulish:ital,wght@1,200&family=Quicksand&display=swap');
+
+/*Noto Sans Black 900*/
+
+
+/*h1*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap');
+
+/*Noto Sans Regular 400*/
+
+
+/*h2*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+/*Noto Sans Light 300*/
+
+
+/*p*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700px;
+    font-size: 200px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+p {
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    z-index: -5;
+    background-image: url("img/foto1.png");
+}
+
+h2 {
+    font-family: 'Noto Sans', sans-serif;
+    ;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+span {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+    z-index: 5;
+    position: relative;
+}
+
+
+/*Toggle switch button*/
+
+.toggle {
+    margin: 0 0 0 2rem;
+    position: relative;
+    display: inline-block;
+    width: 20rem;
+    height: 6.8rem;
+    z-index: 3;
+}
+
+.toggle input {
+    display: none;
+}
+
+
+/*Button vor dem Drücken*/
+
+.roundbutton {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    transition: all 0.3s;
+    border-radius: 20em;
+    cursor: pointer;
+}
+
+
+/*Switch im Button*/
+
+.roundbutton:before {
+    position: absolute;
+    content: "";
+    height: 5.8rem;
+    width: 5.8rem;
+    border-radius: 100%;
+    display: block;
+    left: 0.5rem;
+    bottom: 0.5rem;
+    background-color: white;
+    transition: all 0.3s;
+}
+
+
+/*Button nach dem Drücken*/
+
+input:checked+.roundbutton {
+    background-color: aquamarine;
+}
+
+input:checked+.roundbutton:before {
+    transform: translate(13rem, 0);
+}
+
+
+/*Text zum Button*/
+
+.navbutton {
+    color: rgb(255, 255, 255);
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 9px;
+    margin-top: 30px;
+    margin-right: 20px;
+    /*width: 500px;*/
+}
+
+
+/*Positionierung & Grösse toggle button*/
+
+.flexboxcontainer>div {
+    margin: 0;
+    padding: 20px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.flexcontainer {
+    display: flex;
+}
+
+.flex-items {
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*Anderer Cursor*/
+
+.mycursor {
+    cursor: url("img/textcursor_aquamarine.png"), pointer;
+}

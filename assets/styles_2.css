@@ -1,0 +1,340 @@
+/*https://youtu.be/M8Gq_HPDXsU*/
+
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*/
+
+
+/*Schrift Chalid: Merriweather Sans, Regular 400 Italic*/
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&display=swap');
+
+/*Quicksand, Regular 400*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Mirza:wght@400;500&family=Mulish:ital,wght@1,200&family=Quicksand&display=swap');
+
+/*Noto Sans Black 900*/
+
+
+/*h1*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap');
+
+/*Noto Sans Regular 400*/
+
+
+/*h2*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+/*Noto Sans Light 300*/
+
+
+/*p*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+p {
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    height: 500vh;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    z-index: -5;
+}
+
+h2 {
+    font-family: 'Noto Sans', sans-serif;
+    ;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+span {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+    z-index: 5;
+    position: relative;
+}
+
+
+/*Container = Plakat Hintergrundfläche*/
+
+.container {
+    background-color: white;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    /*h width: 75%;*/
+    width: 50%;
+    position: relative;
+    left: 30px;
+    margin-right: 0;
+}
+
+
+/*richtet alle Elemente mittig aus*/
+
+.center-fixed-element {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+
+/*SVG-Pfade*/
+
+.svg1 {
+    width: 82vw;
+    height: 82vw;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.svg2 {
+    width: 75vw;
+    height: 75vw;
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+/*Toggle switch button*/
+
+.toggle {
+    margin: 0 0 0 2rem;
+    position: relative;
+    display: inline-block;
+    width: 6rem;
+    height: 3.4rem;
+    z-index: 3;
+}
+
+.toggle input {
+    display: none;
+}
+
+
+/*Button vor dem Drücken*/
+
+.roundbutton {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: grey;
+    display: block;
+    transition: all 0.3s;
+    border-radius: 3.4rem;
+    cursor: pointer;
+}
+
+
+/*Switch im Button*/
+
+.roundbutton:before {
+    position: absolute;
+    content: "";
+    height: 2.4rem;
+    width: 2.5rem;
+    border-radius: 100%;
+    display: block;
+    left: 0.5rem;
+    bottom: 0.5rem;
+    background-color: white;
+    transition: all 0.3s;
+}
+
+
+/*Button nach dem Drücken*/
+
+input:checked+.roundbutton {
+    background-color: aquamarine;
+}
+
+input:checked+.roundbutton:before {
+    transform: translate(2.6rem, 0);
+}
+
+
+/*Animation*/
+
+.animate {
+    animation: reveal 1s forwards;
+}
+
+@keyframes reveal {
+    from {
+        opacity: 0;
+        transform: translateX(-180px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(-180px);
+    }
+}
+
+
+/*Flexbox für Buttons und Text*/
+
+
+/*Äussere Box*/
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 700px;
+    margin-top: 250px;
+    margin-left: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+/*Hier hinein kommen die Buttons*/
+
+.navbox {
+    flex-direction: column;
+    column-count: 2;
+    flex-wrap: wrap;
+    column-width: 100px;
+    column-gap: 1300px;
+    margin-top: 450px;
+    margin-left: 10px;
+    height: 470px;
+    position: fixed;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+/*Text zum Button*/
+
+.navbutton {
+    color: rgb(255, 255, 255);
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 9px;
+    margin-top: 30px;
+    margin-right: 20px;
+    /*width: 500px;*/
+}
+
+
+/*Dropdown-Menu*/
+
+.dropdown {
+    /* Border */
+    border: solid 5px black;
+    ;
+    background-color: white;
+    display: flex;
+    /* Reset list styles */
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-left: 30px;
+    padding-top: 0;
+    padding-left: 0;
+    z-index: 6;
+    font-family: 'Noto Sans', sans-serif;
+    ;
+    font-size: 30px;
+    width: 150px;
+    position: fixed;
+}
+
+.dropdown li {
+    /* Spacing */
+    padding: 8px;
+    background-color: white;
+    /*border: black 5px;*/
+    /* Used to position the sub dropdown */
+    position: relative;
+    z-index: 6;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    width: 150px;
+    transition-duration: 0.2s;
+}
+
+
+/* The sub dropdown */
+
+.dropdown ul {
+    z-index: 6;
+    /* Border */
+    /* border: 2px solid rgb(0, 0, 0);*/
+    /* Hidden by default */
+    display: none;
+    /* Absolute position */
+    left: 0;
+    position: absolute;
+    top: 100%;
+    /* Reset styles */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* Width */
+    width: 150px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+}
+
+
+/* The second level sub dropdown */
+
+.dropdown ul ul {
+    z-index: 6;
+    left: 100%;
+    position: absolute;
+    top: 0;
+}
+
+
+/* Change background color of list item when being hovered */
+
+.dropdown li:hover {
+    z-index: 6;
+    background-color: rgba(227, 227, 227, 0);
+    cursor: pointer;
+}
+
+
+/* Show the direct sub dropdown when hovering the list item */
+
+.dropdown li:hover>ul {
+    z-index: 6;
+    display: block;
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+
+/*Anderer Cursor*/
+
+.mycursor {
+    cursor: url("img/textcursor_aquamarine.png"), pointer;
+}

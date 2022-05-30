@@ -391,5 +391,118 @@
     "subjectivity": 0.5,
     "polarity": 1,
     "confidence": 0.4
+    },
+    {
+        "text": "Danke vielmals!",
+        "applicaton": "Whatsapp",
+        "author": "Sonja",
+        "subjectivity": 0.4,
+        "polarity": 0.9,
+        "confidence": 0.2
+    }, {
+        "text": "Oh nein. Wie denn unterschiedlich? Ouu. Aber ihr findet sicher einen guten Kompromiss. Oder er macht dann halt mehr Elektroniksachen und du etwas anderes am Projekt.",
+        "applicaton": "Whatsapp",
+        "author": "Sonja",
+        "subjectivity": 0.5,
+        "polarity": 0.9,
+        "confidence": 0.4
+    }, {
+        "text": "Ahh warte du bist heute gar nicht in der Schule? Oh noo. Ah ich dachte der Support wäre vor Ort. Sorry ich muss nächstens gerade aussteigen. Eh ich gehe sonst einfach mal hin und schaue ob sie dort ist? Ich schaue mal :) Also sie wäre hier. Also wie du willst. Es sind noch nicht so viele da, vielleicht machen paar auch über Zoom? Also du musst sonst auch nicht unbedingt kommen denke ich, wie du willst.. :) je nachdem würde ich dann halt am Mittag wieder nach Hause. Jep, komme gerade. Hanna ist sonst im Zoom (auf Slack wahrscheinlich?) am Bildschirm teilen. Also zum herkommen? Yayy ich hab etwas geschafft! Woahh krass. Hast du den Live Server noch an? Eh wenns geht gerne :) Dankee. Ah mann, localhost 3000 läuft wieder nicht. Hm. Über Liveserver 5500 geht zwar, aber es zeigt nur die Indexseite von test typography experiments2.",
+        "applicaton": "Whatsapp",
+        "author": "Sonja",
+        "subjectivity": 0.1,
+        "polarity": 0.5,
+        "confidence": 0.8
+    }, {
+        "text": "Eh nein^^ Müsste man kommen? Ooh vielleicht habe ich es auch falsch verstanden. Ok. Ehm sonst könntest du auch zu mir kommen? Ueli ist nicht zu Hause. Oder ich komme trotzdem in die Schule. oh no. Ehm bin sonst um 10.30 dort. Wollen wir schnell 30min zoomen? Mhm ja denke schon. Ehm schnell zoom? Ein bisschen verpasst. Mache mich fertig. Ja. Einen Anfang geschafft. Nein es hiess du hättest irgendetwas verlassen darum habe ich es abgebrochen. Eh soll ich einen neuen Link senden? Ehm wie haben wir das gleich nochmal gelöst? Bist du auch im Zoom? Ah eigentlich nicht sooo spannend.",
+        "applicaton": "Whatsapp",
+        "author": "Chalid",
+        "subjectivity": 0.5,
+        "polarity": 0.7,
+        "confidence": 0.5
+    }, {
+        "text": "Morheus genisst die Aussicht. Nicht sehr gut und deiner? Ja, wir haben noch einen IDA Salon bis 19.00 Uhr.",
+        "applicaton": "Whatsapp",
+        "author": "Chalid",
+        "subjectivity": 0.2,
+        "polarity": -0.3,
+        "confidence": 0.6
+    }, {
+        "text": "Mausefalle ist bereit.",
+        "applicaton": "Whatsapp",
+        "author": "Chalid",
+        "subjectivity": 0.7,
+        "polarity": -0.4,
+        "confidence": 0.3
+    }, {
+        "text": "Hey.. ehm nein nicht aus Versehen, ich habe nicht gewusst welche ich soll, dann habe ich mal die englische genommen. Oh nein, hast du aus Versehen die bestellt? Oh no. Behältst du sie oder fragst du noch zum umtauschen? Mh ich weiss nicht, ich habe das Buch noch nicht geholt. Ich würde es wahrscheinlich morgen holen.",
+        "applicaton": "Whatsapp",
+        "author": "Sonja",
+        "subjectivity": 0.4,
+        "polarity": -0.2,
+        "confidence": 0.8
+    }, {
+        "text": "Ja oke das stimmt schon. Ich habe glaube ich nicht alles so mega mitbekommen, weil ich sonst noch dazu gearbeitet habe. Aber ja, einmal kam das so und ich hab auch so gedacht, wtf. Ich dachte das wäre unsere gute Quelle. Oh mann, ich weiss auch nicht. Ich finde es mega schwierig eine Fragestellung zu finden, die nicht schon beantwortet ist. Vielleicht könnte man ihr ein Mail schreiben und mal fragen was sie meint?",
+        "applicaton": "Whatsapp",
+        "author": "Sonja",
+        "subjectivity": 0.8,
+        "polarity": -0.5,
+        "confidence": 0.9
+    }, {
+        "text": "Essbar?",
+        "applicaton": "Whatsapp",
+        "author": "Sonja",
+        "subjectivity": 0.1,
+        "polarity": 0.3,
+        "confidence": 0.4
+    }, {
+        "text": "Hey. Omg man sollte am Freitag oder am Wochenende baden gehen, es ist so warm. Ah das hört sich doch gut an. Ihr müsst euch noch bewerben? Wow. Mh wir haben mit der Dozentin begonnen Code zu bauen für unser Projekt.. was sehr nötig war. Jetzt sind wir am coden coden coden und ausprobieren. Chor war ok.. ich bin neben einer gesessen, die ich beim Chorfest kennengelernt, aber eigentlich nur einen Satz gewechselt habe.. ich hätte eigentlich mit ihr reden wollen, aber ich wusste nicht was, und dann hab ich mich unwohl gefühlt. Dann habe ich mir noch einigermassen viel Zeit genommen am Abend zum lesen, weil mein Buch so spannend ist! Und weil ich heute morgen später aufstehen musste, weil wir heute Selbststudiumstag haben. Jetzt konnte ich einigermassen sogar noch Schlaf nachholen. Das wünsche ich dir auch! Mhm. Uii. Bei uns leider.. ah ich weiss nicht. Etwas geht bereits, aber wir sind noch nirgends und irgendwie könnte man immer noch mehr machen und ich weiss nie wann dass es genug ist oder wann man noch weitermachen sollte.. meh. Und jetzt ist schon wieder halb 8, wtf.",
+        "applicaton": "Whatsapp",
+        "author": "Sonja",
+        "subjectivity": 1,
+        "polarity": -0.75,
+        "confidence": 0.8
+    }, {
+        "text": "Nein leider nicht, Dienstagabend habe ich eben immer Chor.. Wie war es ? Ohh nicht? Ja ist gut :) Es geht leider wieder nur die Spline-Seite. Dieses Mail beim Beitreten auf den Server hat es iwie geheissen der Host habe eine Index-Seite auf dem Liveserver oder so ähnlich.. Aber ja. Wäre es ok wenn ich dann halt auf der index-Seite vom Experiment 2  auch noch die Links einbaue (temporär)? Damit ich an einem anderen arbeiten kann? Oke super, so klappt es immerhin mal. Hey :) Bist du noch im Live Share? Mich hat es gerade rausgeworfen. Mh ich versuchs nochmals über den alten. Ahh ja jetzt gehts wieder. Ahh ja. Es war irgendein Fehler mit der geladenen Schrift. Jetzt sollte es wieder funktionieren. Zuerst hab ich das ganze textToPoints mal auch noch von der p5 reference Seite 1:1 kopiert und in einem neuen Übungsordner in VS Code eingefügt.. ausser die Schrift, weil ich die ja anpassen muss. Als müsste der Fehler fast and der Schrift leigen.. aber keine Ahnung wieso. Ich hab mal noch Yann geschrieben, vielleicht sieht er es ja. Wollen wir um 2 zoomen?",
+        "applicaton": "Whatsapp",
+        "author": "Sonja",
+        "subjectivity": 0.4,
+        "polarity": 0.3,
+        "confidence": 0.9
+    }, {
+        "text": "Also ich weiss nicht ab ich viel helfen kann, weil mein Englisch schlechter ist als deins. Aber wenn du möchtest, kann ich es schon mal durchlesen. Omg so schöön. Ui eine positive Überraschung. Das dritte Mal oder so. Uii. Hmm aber nimmst du es vielleicht fast zu genau? Ah ja ich hätte schon fast mal gefragt.",
+        "applicaton": "Whatsapp",
+        "author": "Sonja",
+        "subjectivity": 1,
+        "polarity": 1,
+        "confidence": 0.7
+    }, {
+        "text": "Hallo Yann. Ich wollte die p5 Funktion textToPoints ausprobieren, aber irgendwie funktioniert es nicht. Es gibt mir folgende Fehlermeldung.. weisst du gerade, an was das liegen könnte? Die Strukur sieht bei mir so aus.. und die Verlinkung so.. Eigentlich sollte es ja schon stimmen. Danke vielmals fürs Anschauen. Komisch.. Ich habe die Schrift jetzt bei uns geändert, aber es kommt leider immer noch eine Fehlermeldung. Vielen Dank, jetzt geht es! Das war wohl wirklich die Schrift.",
+        "applicaton": "Ewolack",
+        "author": "Sonja",
+        "subjectivity": 0.1,
+        "polarity": -0.4,
+        "confidence": 0.6
+    }, {
+        "text": "Ehm ich möchte noch ein wenig mit dem Pfad testen, ist es in Ordnung wenn wir uns um  ca. 10.00 Uhr treffen? Ich kann nacher gleich die visual studio code session starten. Ok hoffentlich schaffen wir es mit dem Server =) Toll. Ja klar. Hmm eigentlich schon. Hm sehe dich als Teilnehmer. Test 2. Ah jetzt nicht mehr. Neuer Link? Hmm wenn ich die Seite öffne steht nur Loading bei dir auch? Test 1. Ah ja. Yann wird sicher helfen können. Bin schon mal im Zoom. Ich habe eine Frage betreffend dem Conficence.",
+        "applicaton": "Whatsapp",
+        "author": "Chalid",
+        "subjectivity": 0.1,
+        "polarity": -0.2,
+        "confidence": 0.5
+    }, {
+        "text": "Oh die arme Maus.",
+        "applicaton": "Whatsapp",
+        "author": "Chalid",
+        "subjectivity": 0.6,
+        "polarity": -0.8,
+        "confidence": 0.8
+    }, {
+        "text": "Ah scheisse, das mit den Videos ist nächstes Mal. Heute ist nicht der letzte Tag. Ich esse später mit dir ok? Warte besser nicht auf mich. Ich esse gerade Kuchen. Ich trinke noch eins dann komme ich nach Hause.",
+        "applicaton": "Whatsapp",
+        "author": "Chalid",
+        "subjectivity": 0.5,
+        "polarity": -0.6,
+        "confidence": 0.8
     }
 ]

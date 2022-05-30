@@ -1,4 +1,3 @@
-//Test-Chalid
 var textPaths = document.getElementsByClassName('animatedPath') //verknüpfung zu textpfad und ID
 
 function updateTextPathOffset(offset) {

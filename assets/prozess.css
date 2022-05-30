@@ -1,19 +1,4 @@
-body{
-    margin: 0;
-    padding: 0;
-}
-
-.navigationoben{
-    position:fixed;
-    background-color: rgb(255, 255, 255);
-    height: 300px;
-    margin-bottom: 10px;
-    display: inline;
-    z-index: 1;
-    padding: 4px;
-}
-
-.homebutton{
+.homebutton {
     display: flex;
     cursor: pointer;
     width: 100px;
@@ -25,33 +10,30 @@ body{
     justify-content: center;
 }
 
-.homebutton:hover{
+.homebutton:hover {
     box-shadow: #3f3 10px 10px 10px;
     background-color: rgb(242, 242, 242);
 }
 
-.w3large{
+.w3large {
     font-size: 60px;
     text-align: center;
-
 }
 
-.containermenu{
+.containermenu {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.hinweishand{
+.hinweishand {
     margin-left: 20px;
     font-size: 70px;
 }
 
-span{
-    content: "\261A";
-}
 
+/*Anderer Cursor*/
 
-a:hover{
-cursor: pointer;
+.mycursor {
+    cursor: url("img/textcursor_aquamarine.png"), pointer;
 }

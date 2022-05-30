@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Written Emotions_test mehrere tage</title>
+    <script src="../../Libraries/p5.min.js"></script>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+
+
+<body>
+
+
+    <!--Menu dropdown-->
+    <ul class="dropdown">
+        <li>
+            <div>Menu</div>
+    <!--first level dropdown-->
+            <ul>
+                <li><a href="projektbeschrieb.html">Projektbeschrieb</a></li>
+                <li><a href="prozess.html">Galerie</a></li>
+                <li>
+                    <div>Tests</div>
+                    <!--Second level sub dropdown-->
+                    <ul>
+                    <li><a href="../test_typography_experiments_1.1/index.html">Test 1</a></li>
+                    <li><a href="../test_typography_experiments_1.2/index.html">Test 2</a></li>      
+                    <li><a href="../test_typography_experiments_1.3/index.html">Test 3</a></li>                
+                    <li><a href="../test_typography_experiments_2/index.html">Test 4</a></li>
+                    <li><a href="../test_typography_experiments_3/index.html">Test 5</a></li>
+                    <li><a href="../test_typography_experiments_4/index.html">Test 6</a></li>
+                   <!-- <li><a href="index_1.html">Test 6</a></li> -->
+                    </ul>
+                </li>
+            </ul>    
+        </li>
+    </ul>
+
+
+
+
+
+    <div class="container center-fixed-element">
+        <!--SVG Pfad für Text: https://jakearchibald.github.io/svgomg/-->
+        <!--Pfad Chalid horizontal-->
+        <svg class="svg1 center-fixed-element" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 1000" style="enable-background:new 0 0 500 1000" xml:space="preserve">
+            <style type="text/css">.st0{fill:none;stroke:#1d1d1b00;stroke-width:1.3921;stroke-miterlimit:10}
+                .text {
+                    font-weight: bold;
+                    font-family:'Quicksand', sans-serif;
+                }
+            </style>
+            <path id="our-text" class="st0" d="M289.91 47.72h-97.27l.31 18.32h160.71l-.16 22.46H160l-1.5 20H416l-.63 43.53-291.37.47-.43 18.63h305.89l.54 19.37-316.3-.41.3 22.41 315.46-.24v41.14L92 253.5l-.85 41.04L445 294.5l-.03 41.17L48 335.5l-.55 41.31H479l-.2 41.14L31 417.5l-.47 41.58H478.8l1.2 41.14H30.53L31 541.5h458.5v41l-478.7-.01.2 20.63h467.8l.2 42.29H20.66v19.35h468.83l.51 41.14-451-.4-.01 41.54 391.01.46-.54 40.67L66 788.5l-.23 40.81 339.23.19-.91 40.95L94 870.5l-.03 41.08L327 911.5l-.44 41.22H123.57"/>
+            <text y="10" font-size="8">
+                <textPath id="text-path" class="text animatedPath" href="#our-text" startOffset="10">           
+                </textPath>
+            </text>
+        </svg>
+
+
+      
+        <!--Pfad Sonja horizontal-->
+        <svg class="svg2 center-fixed-element" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 304.98 583.95" id="Ebene_2">
+            <style type="text/css">.st0{fill:none;stroke:#1d1d1b00;stroke-miterlimit:10}
+                .text-rot {
+                    font-weight: bold;
+                    font-family: 'Quicksand', sans-serif;
+                }
+            </style>
+            <path id="our-text-two" class="st0"
+                d="M113.11 33.22h81.5v10.92H91.53v10.91h134.05v15.81H59.08V91.5H257.6v13.64H41.05v22.82h230.6v18.42H30.47v18.43h248.02v16.87H17.18v17.13h267.04v16.41H14.73v19.47h271.99v19.17H14.34v22.66h276.3v13.3H14.34v10.51h276.3v10.52H14.85v15.05h270.92v19.17H17.18v9.29h267.04v9.3H17.18v14.25H282.2v23.55H22.51v15.01H275.6v15.01H27.92v9.44h239.41v17.43H34.87v17.43h221.14v12.2H49.04v15.1H236.1v15.11H77.98v15.1h119l-.93 17.43h-83.26"/>
+            <text y="10" font-size="5" font-family="Merriweather Sans, sans-serif;">
+                <textPath id="text-path-two" class="text-rot animatedPath" href="#our-text-two" startOffset="20">            
+                </textPath>
+            </text>
+        </svg>
+    </div>
+
+
+
+    <!--Filter Buttons-->
+    <section class="flex-container navbox">
+        <!--Nur E-Mail und Word-->
+        <div>
+            <p class="navbutton">Nur E-Mail/Word</p>
+            <label class="toggle">
+                <input id="toggleswitch1" type="checkbox">
+                <span class="roundbutton"></span>
+            </label>
+        </div>
+
+        <!--Nur WhatsApp-->
+        <div>
+            <p class="navbutton">Nur WhatsApp</p>
+            <label class="toggle">
+                <input id="toggleswitch2" type="checkbox">
+                <span class="roundbutton"></span>
+            </label>
+        </div>
+
+        <!--Nur Chalid-->
+        <div>
+            <p class="navbutton">Nur Chalid</p>
+            <label class="toggle">
+                <input id="toggleswitch3" type="checkbox">
+                <span class="roundbutton"></span>
+            </label>
+        </div>
+
+        <!--Nur Sonja-->
+        <div>
+            <p class="navbutton">Nur Sonja</p>
+            <label class="toggle">
+                <input id="toggleswitch4" type="checkbox">
+                <span class="roundbutton"></span>
+            </label>
+        </div>
+
+        <!--subjektivity-->
+        <div>
+            <p class="navbutton">subjectivity</p>
+            <label class="toggle">
+                <input id="toggleswitch5" type="checkbox">
+                <span class="roundbutton"></span>
+            </label>
+        </div>
+
+        <!--polarity-->
+        <div>
+            <p class="navbutton">polarity</p>
+            <label class="toggle">
+                <input id="toggleswitch6" type="checkbox">
+                <span class="roundbutton"></span>
+            </label>
+        </div>
+
+        <!--conficence-->
+        <div> 
+            <p class="navbutton">confidence</p>
+            <label class="toggle">
+                <input id="toggleswitch7" type="checkbox">
+                <span class="roundbutton"></span>
+            </label> 
+        </div> 
+    </section>
+
+
+
+
+
+
+    <script src="assets/script/loadText.js"></script>
+    <script src="assets/script/script.js"></script>
+    <script src="assets/script/p5.js"></script>
+    <script src="assets/script/test.json"></script>
+    
+
+        
+</body>
+
+</html>

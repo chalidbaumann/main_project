@@ -1,15 +1,20 @@
 /*https://youtu.be/M8Gq_HPDXsU*/
+
+
 /*
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 */
 
 
 /*Schrift Chalid: Merriweather Sans, Regular 400 Italic*/
+
+
 /*@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&display=swap');
 
 /*Schrift Sonja: Quicksand, Regular 400*/
-/*@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Mirza:wght@400;500&family=Mulish:ital,wght@1,200&family=Quicksand&display=swap');*/
 
+
+/*@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Mirza:wght@400;500&family=Mulish:ital,wght@1,200&family=Quicksand&display=swap');*/
 
 body {
     height: 400vh;
@@ -17,12 +22,14 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
+
 /*
 h1 {
     font-family: 'Anton', sans-serif;
     font-size: 5em;
 }
 */
+
 
 /*
 section {
@@ -33,6 +40,7 @@ section {
     z-index: 2;
     position: relative;
 }*/
+
 
 /*
 svg {
@@ -45,19 +53,24 @@ svg {
     z-index: -1;
 }*/
 
+
 /*Container = Hintergrundfläche Sentiment Analysis Fingerabdruck*/
+
 .container {
     background-color: white;
     flex-direction: column;
     flex-wrap: wrap;
     height: 100vh;
-    width: 75%;
+    /*h width: 75%;*/
+    width: 50%;
     position: relative;
     left: 30px;
     margin-right: 0;
 }
 
+
 /*richtet alle Elemente mittig aus*/
+
 .center-fixed-element {
     position: fixed;
     top: 50%;
@@ -90,26 +103,12 @@ svg {
 }*/
 
 
-/*Button rund
-.button{
-    cursor: pointer;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: solid 4px red;
-    background-color: #33f;
-    color: white;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-*/
-
-
 /*Button toggle switch*/
+
+
 /* The switch - the box around the slider */
+
+
 /*.ergebnis {
     font-size: 2rem;
     font-family: sans-serif;
@@ -118,7 +117,7 @@ svg {
 }*/
 
 .toggle {
-    margin:0 0 0 2rem;
+    margin: 0 0 0 2rem;
     position: relative;
     display: inline-block;
     width: 6rem;
@@ -130,7 +129,9 @@ svg {
     display: none;
 }
 
+
 /*Button vor dem Drücken*/
+
 .roundbutton {
     position: absolute;
     top: 0;
@@ -145,7 +146,9 @@ svg {
     cursor: pointer;
 }
 
+
 /*Switch im Button*/
+
 .roundbutton:before {
     position: absolute;
     content: "";
@@ -159,18 +162,20 @@ svg {
     transition: all 0.3s;
 }
 
+
 /*Button nach dem Drücken*/
-input:checked + .roundbutton {
+
+input:checked+.roundbutton {
     background-color: green;
 }
 
-input:checked + .roundbutton:before  {
+input:checked+.roundbutton:before {
     transform: translate(2.6rem, 0);
 }
 
 
-
 /*Animation*/
+
 .animate {
     animation: reveal 1s forwards;
 }
@@ -187,8 +192,7 @@ input:checked + .roundbutton:before  {
 }
 
 
-
-/*Grid concept extraction*/
+/*Grid concept extraction
 .grid-block {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -197,13 +201,26 @@ input:checked + .roundbutton:before  {
     height: 600px;
     align-items: center;
     justify-content: center;
-}
+}*/
 
-.section{
+.section {
     width: 30px;
     color: white;
 }
 
-.buttontext{
-text-align: center;
+.buttontext {
+    text-align: left
+}
+
+.navbutton {
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+
+/*Anderer Cursor*/
+
+.mycursor {
+    cursor: url("img/textcursor_aquamarine.png"), pointer;
 }

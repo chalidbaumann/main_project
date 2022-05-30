@@ -141,6 +141,8 @@ let json = {
     }
 }
 
+
+
 //subjectivity
 let objective; // objektiv = 0 (blau)
 let subjective; // subjektiv = 1 (gelb)
@@ -185,8 +187,10 @@ function setup() {
     //confidence
     unsure = 5;
     sure = 10;
-    // frameRate(0.4);
+    //frameRate(0.4);
 }
+
+
 
 
 
@@ -198,7 +202,7 @@ function draw() {
     }
     draw_text(count, 1, 100, 0)
         // draw_text(count);
-        // confidence
+        // CONFIDENCE
     let textGroesse = map(json[count].confidence, 0, 1, unsure, sure);
     textSize(textGroesse);
     count++;
@@ -210,7 +214,7 @@ function draw_text(count, size, x, y) {
         sampleFactor: 100,
         simplifyThreshold: 0
     });
-    bounds = font.textBounds(json[count].text, 50, 50, 5); //bounding box für Text ?
+    bounds = font.textBounds(json[count].text, 2, 50, 2); //bounding box für Text ?
 
     //subjectivity
     let mycolor = lerpColor(objective, subjective, json[count].subjectivity); //färbt Text nach objektiv/subjektiv
@@ -235,9 +239,8 @@ function draw_text(count, size, x, y) {
 
         // );
         vertex(
-            (p.x * width / bounds.w) + font_position_x + sin(polarity * p.y / bounds.h + millis() / 10) * width / 30,
-            (p.y * height / bounds.h) + font_position_y
-
+            (p.x * width / bounds.w) + font_position_x + sin(polarity * p.y / bounds.h + millis() / 10) * width /1000,
+            (p.y * height / bounds.h) + font_position_y +  sin(polarity * p.x / bounds.h + millis() / 100) * width / 10,
         );
     }
     endShape(CLOSE);
