@@ -1,6 +1,6 @@
 let json;
 async function printJSON() {
-    const response = await fetch("assets/script/test_2.json");
+    const response = await fetch("assets/script/test.json");
     json = await response.json();
     //console.log(json);
     writeTextOnPath();
@@ -11,17 +11,17 @@ async function printJSON() {
 function writeTextOnPath() {
     let chalid = document.getElementById("text-path");
     let sonja = document.getElementById("text-path-two");
-    for (let n = 0; n < json.length; n++) {
-        console.log(json[n]['text'], json[n]['application'], json[n]['subjectivity'], json[n]['polarity'], json[n]['confidence'])
+    for (let n = 19; n < 28; n++) {
+        console.log(json[n]['text'], json[n]['application'], json[n]['day'], json[n]['subjectivity'], json[n]['polarity'], json[n]['confidence'])
         let div = document.createElementNS("http://www.w3.org/2000/svg", "tspan");
-        div.textContent += json[n]['text'];
-        div.classList.add(json[n]['application']);
-        if(json[n]['author'] =='Sonja'){
+         div.textContent += json[n]['text'];
+         div.classList.add(json[n]['application']);
+         if(json[n]['author'] =='Sonja'){
             sonja.appendChild(div);
-        }
-        else {
+         }
+         else {
             chalid.appendChild(div); 
-        }
+         }
     }
 }
 
@@ -29,7 +29,8 @@ printJSON();
 
 
 
-let chalid = document.getElementById("text-path");
+
+/*let chalid = document.getElementById("text-path");
 let sonja = document.getElementById("text-path-two");
 
 //subjectivity
@@ -60,7 +61,7 @@ function draw() {
 
     count++;
 
-}
+}*/
 
 
 

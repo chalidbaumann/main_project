@@ -1,0 +1,154 @@
+
+
+/*Noto Sans Black 900*/
+/*h1*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap');
+
+/*Noto Sans Regular 400*/
+/*h2*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+/*Noto Sans Light 300*/
+/*p*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+
+h1{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700px;
+    font-size: 100px;  
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h2{
+    font-family: 'Noto Sans', sans-serif;  ;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+p{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    margin-bottom: 30px;
+    line-height: 1.4;
+}
+
+a{
+    text-decoration: none;
+}
+
+span{
+    content: "\261A";
+}
+
+
+a:hover{
+cursor: pointer;
+}
+
+.navigationoben{
+    position:fixed;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    margin-bottom: 10px;
+    display: inline;
+    z-index: 1;
+    padding: 4px;
+}
+
+.container{
+    margin-top: 330px;
+    position: absolute;
+    width: 700px;
+    column-count: 2;
+    column-gap: 30px;
+}
+
+.homebutton{
+    display: flex;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 2px black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.homebutton:hover{
+    box-shadow: #3f3 10px 10px 10px;
+    background-color: rgb(242, 242, 242);
+}
+
+.w3large{
+    font-size: 60px;
+    text-align: center;
+
+}
+
+.containermenu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hinweishand{
+    margin-left: 20px;
+    font-size: 70px;
+}
+
+
+
+
+/*Galery*/
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
