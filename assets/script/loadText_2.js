@@ -25,11 +25,11 @@ function writeTextOnPath() {
         //Add subjectivity
         let c = mixColor(json[n]['subjectivity']);
         div.setAttribute("subjectivityColor", "rgb(" + c[0] + "," + c[1] + "," + c[2] + ")");
-        /*//Add polarity
+        //Add polarity
         let f = fontSize(json[n]['polarity']);
-        div.setAttribute("polarityFontsize", "fontSize(" + f[0] + "," + f[1] + "," + f[2] +")");
+        div.setAttribute("polarityFontsize", f);
         //Add confidence
-        let o = opacity(json[n]['confidence']);
+        /*let o = opacity(json[n]['confidence']);
         div.setAttribute("confidenceOpacity", "opacity(" + o[0] + "," + o[1] + "," + o[2] +")");*/
         //Author
         if (json[n]['author'] == 'Sonja') {
@@ -66,10 +66,14 @@ function mixColor(percentage) {
 }
 
 //Polarity -> Schriftgrösse
-// function fontSize(percentage) {
-//     let f1 = 
-//     let f2 =
-// }
+function fontSize(percentage) {
+    let minsize = 3;
+    let fontsize = Math.round(minsize + (percentage + 1) * 5); // 10 - 30
+
+    //console.log(fontsize)
+    return fontsize;
+
+}
 
 
 /*function roughScale(x, base) {
@@ -118,7 +122,11 @@ input.addEventListener('change', function() {
 
     } else {
         //console.log("inaktiv")
+<<<<<<< HEAD
             // show all again
+=======
+        // show all again
+>>>>>>> 2a3e9d47c58ae9f93cc5d3f92829f1f269e08008
         let chalid = document.getElementById("text-path");
         let sonja = document.getElementById("text-path-two");
         //Chalid
@@ -148,7 +156,7 @@ var input = document.getElementById('toggleswitch2');
 //console.log(input);
 input.addEventListener('change', function() {
     if (this.checked) {
-        console.log("aktiv")
+        //console.log("aktiv")
         let chalid = document.getElementById("text-path");
         let sonja = document.getElementById("text-path-two");
         //Chalid
@@ -167,8 +175,8 @@ input.addEventListener('change', function() {
         }
 
     } else {
-        console.log("inaktiv")
-            // show all again
+        //console.log("inaktiv")
+        // show all again
         let chalid = document.getElementById("text-path");
         let sonja = document.getElementById("text-path-two");
         //Chalid
@@ -193,14 +201,14 @@ var input = document.getElementById('toggleswitch3');
 //console.log(input);
 input.addEventListener('change', function() {
     if (this.checked) {
-        console.log("aktiv")
+        //console.log("aktiv")
         let chalid = document.getElementById("text-path");
         let sonja = document.getElementById("text-path-two");
         //Chalid
         sonja.style.display = "none";
     } else {
-        console.log("inaktiv")
-            // show all again
+        //console.log("inaktiv")
+        // show all again
         let chalid = document.getElementById("text-path");
         let sonja = document.getElementById("text-path-two");
         //Chalid
@@ -215,14 +223,14 @@ var input = document.getElementById('toggleswitch4');
 //console.log(input);
 input.addEventListener('change', function() {
     if (this.checked) {
-        console.log("aktiv")
+        //console.log("aktiv")
         let chalid = document.getElementById("text-path");
         let sonja = document.getElementById("text-path-two");
         //Sonja
         chalid.style.display = "none";
     } else {
-        console.log("inaktiv")
-            // show all again
+        //console.log("inaktiv")
+        // show all again
         let chalid = document.getElementById("text-path");
         let sonja = document.getElementById("text-path-two");
         //Sonja
@@ -236,7 +244,7 @@ var input = document.getElementById('toggleswitch5');
 //console.log(input);
 input.addEventListener('change', function() {
     if (this.checked) {
-        console.log("aktiv")
+        //console.log("aktiv")
         let chalid = document.getElementById("text-path");
         let sonja = document.getElementById("text-path-two");
         //Chalid
@@ -249,8 +257,8 @@ input.addEventListener('change', function() {
         }
 
     } else {
-        console.log("inaktiv")
-            // show all again
+        //console.log("inaktiv")
+        // show all again
         let chalid = document.getElementById("text-path");
         let sonja = document.getElementById("text-path-two");
         //Chalid
@@ -264,13 +272,13 @@ input.addEventListener('change', function() {
     }
 });
 
-/*
+
 //Button polarity
 var input = document.getElementById('toggleswitch6');
 //console.log(input);
 input.addEventListener('change', function() {
     if (this.checked) {
-        console.log("aktiv")
+        //console.log("aktiv")
         let chalid = document.getElementById("text-path");
         let sonja = document.getElementById("text-path-two");
         //Chalid
@@ -283,22 +291,22 @@ input.addEventListener('change', function() {
         }
 
     } else {
-        console.log("inaktiv")
-            // show all again
+        //console.log("inaktiv")
+        // show all again
         let chalid = document.getElementById("text-path");
         let sonja = document.getElementById("text-path-two");
         //Chalid
         for (let i = 0; i < chalid.children.length; i++) {
-            chalid.children[i].style.fontSize = "";
+            chalid.children[i].style.fontSize = 5;
         }
         //Sonja
         for (let i = 0; i < sonja.children.length; i++) {
-            sonja.children[i].style.fontSize = "";
+            sonja.children[i].style.fontSize = 8;
         }
     }
 });
 
-
+/*
 //Button confidence
 var input = document.getElementById('toggleswitch7');
 //console.log(input);
