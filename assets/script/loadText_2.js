@@ -16,7 +16,7 @@ function writeTextOnPath() {
     let chalid = document.getElementById("text-path");
     let sonja = document.getElementById("text-path-two");
     for (let n = 0; n < json.length; n++) {
-        console.log(json[n]['text'], json[n]['application'], json[n]['subjectivity'], json[n]['polarity'], json[n]['confidence'])
+        //console.log(json[n]['text'], json[n]['application'], json[n]['subjectivity'], json[n]['polarity'], json[n]['confidence'])
         let div = document.createElementNS("http://www.w3.org/2000/svg", "tspan");
         //Add text
         div.textContent += json[n]['text'];
@@ -96,12 +96,12 @@ var input = document.getElementById('toggleswitch1');
 //console.log(input);
 input.addEventListener('change', function() {
     if (this.checked) {
-        console.log("aktiv")
+        //console.log("aktiv")
         let chalid = document.getElementById("text-path");
         let sonja = document.getElementById("text-path-two");
         //Chalid
         for (let i = 0; i < chalid.children.length; i++) {
-            console.log(chalid.children[i].classList.contains("Whatsapp"));
+            //console.log(chalid.children[i].classList.contains("Whatsapp"));
             if (chalid.children[i].classList.contains("Whatsapp")) { //alle WhatsApps nicht anzeigen
                 chalid.children[i].style.display = "none";
             }
@@ -109,7 +109,7 @@ input.addEventListener('change', function() {
         }
         //Sonja
         for (let i = 0; i < sonja.children.length; i++) {
-            console.log(sonja.children[i].classList.contains("Whatsapp"));
+            //console.log(sonja.children[i].classList.contains("Whatsapp"));
             if (sonja.children[i].classList.contains("Whatsapp")) {
                 sonja.children[i].style.display = "none";
             }
@@ -117,7 +117,7 @@ input.addEventListener('change', function() {
         }
 
     } else {
-        console.log("inaktiv")
+        //console.log("inaktiv")
             // show all again
         let chalid = document.getElementById("text-path");
         let sonja = document.getElementById("text-path-two");
@@ -135,6 +135,10 @@ input.addEventListener('change', function() {
         }
     }
 });
+
+
+
+
 
 
 

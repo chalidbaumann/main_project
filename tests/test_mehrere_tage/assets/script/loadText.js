@@ -256,15 +256,11 @@ input.addEventListener('change', function() {
         let sonja = document.getElementById("text-path-two");
         //Chalid
         for (let i = 0; i < chalid.children.length; i++) {
-            if (chalid.children[i].classList.contains("Ewolack")) {
-                chalid.children[i].style.display = "block";
-            }
+            chalid.children[i].style.fill = "";
         }
         //Sonja
         for (let i = 0; i < sonja.children.length; i++) {
-            if (sonja.children[i].classList.contains("Ewolack")) {
-                sonja.children[i].style.display = "block";
-            }
+            sonja.children[i].style.fill = "";
         }
     }
 });
