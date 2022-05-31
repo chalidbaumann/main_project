@@ -61,12 +61,11 @@ body {
     position: absolute;
     z-index: -5;
     background-image: url("img/hintergrund1.png");
-    background-size:inherit;
+    /*background-size: contain;*/
 }
 
 h2 {
     font-family: 'Noto Sans', sans-serif;
-    ;
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 0;
@@ -159,7 +158,6 @@ input:checked+.roundbutton:before {
 
 
 /*Positionierung & Grösse toggle button*/
-
 .flexboxcontainer>div {
     margin: 0;
     padding: 20px;
@@ -184,3 +182,68 @@ input:checked+.roundbutton:before {
 }
 
 
+
+.container {
+    background-color: rgba(255, 255, 255, 0);
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    /*h width: 75%;*/
+    width: 70%;
+    position: relative;
+    left: 30px;
+    margin-right: 0;
+}
+
+
+/*richtet alle Elemente mittig aus*/
+.center-fixed-element {
+    position: fixed;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+
+
+.svgstartseite{
+    width: 100vw;
+    height: 100vw;
+    z-index: 2;
+    pointer-events: none;
+    /*fill: white;*/
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 10;
+}
+
+
+#w1{
+    fill: rgb(127, 133, 255);
+}
+
+#r1{
+    fill:antiquewhite
+}
+
+#i1{
+    fill: rgb(127, 133, 255);
+}
+
+#t1{
+    fill:antiquewhite
+}
+
+#t2{
+    fill:antiquewhite
+}
+
+#e1{
+    fill: rgb(127, 133, 255);
+}
+
+#n1{
+    fill:antiquewhite

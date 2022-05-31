@@ -47,15 +47,14 @@ a {
 body {
     height: 500vh;
     margin: 0;
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     position: absolute;
     z-index: -5;
-    background-image: url("img/hintergrund2.png");
+    background-image: url("img/hintergrund5.png");
 }
 
 h2 {
     font-family: 'Noto Sans', sans-serif;
-    ;
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 0;
@@ -76,12 +75,12 @@ span {
 /*Container = Plakat Hintergrundfläche*/
 
 .container {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     flex-direction: column;
     flex-wrap: wrap;
     height: 100vh;
     /*h width: 75%;*/
-    width: 50%;
+    width: 70%;
     position: relative;
     left: 30px;
     margin-right: 0;
@@ -104,17 +103,19 @@ span {
 /*SVG-Pfade*/
 
 .svg1 {
-    width: 55vw;
-    height: 55vw;
+    width: 80vw;
+    height: 80vw;
     z-index: 2;
     pointer-events: none;
+    fill: white;
 }
 
 .svg2 {
-    width: 55vw;
-    height: 55vw;
+    width: 80vw;
+    height: 80vw;
     z-index: 1;
     pointer-events: none;
+    fill: white;
 }
 
 
@@ -205,7 +206,7 @@ input:checked+.roundbutton:before {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 700px;
+    width: 300px;
     margin-top: 250px;
     margin-left: 0;
     background-color: rgba(0, 0, 0, 0);
@@ -219,7 +220,7 @@ input:checked+.roundbutton:before {
     column-count: 2;
     flex-wrap: wrap;
     column-width: 100px;
-    column-gap: 1300px;
+    column-gap: 0px;
     margin-top: 450px;
     margin-left: 10px;
     height: 470px;
@@ -339,3 +340,5 @@ input:checked+.roundbutton:before {
 .mycursor {
     cursor: url("img/textcursor_aquamarine.png"), pointer;
 }
+
+

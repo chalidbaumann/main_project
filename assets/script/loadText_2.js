@@ -1,4 +1,8 @@
 let json;
+//Farben für Subjectivity
+let color1 = "rgb(200,10,0)";
+let color2 = "rgb(10,10,255)";
+//Fetch
 async function printJSON() {
     const response = await fetch("assets/script/test_2.json");
     json = await response.json();
@@ -14,9 +18,20 @@ function writeTextOnPath() {
     for (let n = 0; n < json.length; n++) {
         console.log(json[n]['text'], json[n]['application'], json[n]['subjectivity'], json[n]['polarity'], json[n]['confidence'])
         let div = document.createElementNS("http://www.w3.org/2000/svg", "tspan");
+        //Add text
         div.textContent += json[n]['text'];
+        //Add application
         div.classList.add(json[n]['application']);
-        div.classList.add("subjectivity" + json[n]['subjectivity']);
+        //Add subjectivity
+        let c = mixColor(json[n]['subjectivity']);
+        div.setAttribute("subjectivityColor", "rgb(" + c[0] + "," + c[1] + "," + c[2] + ")");
+        /*//Add polarity
+        let f = fontSize(json[n]['polarity']);
+        div.setAttribute("polarityFontsize", "fontSize(" + f[0] + "," + f[1] + "," + f[2] +")");
+        //Add confidence
+        let o = opacity(json[n]['confidence']);
+        div.setAttribute("confidenceOpacity", "opacity(" + o[0] + "," + o[1] + "," + o[2] +")");*/
+        //Author
         if (json[n]['author'] == 'Sonja') {
             sonja.appendChild(div);
         } else {
@@ -25,56 +40,60 @@ function writeTextOnPath() {
     }
 }
 
-printJSON();
 
 
-
-
-/*let chalid = document.getElementById("text-path");
-let sonja = document.getElementById("text-path-two");
-
-//subjectivity
-let objective; // objektiv = 0 (blau)
-let subjective; // subjektiv = 1 (gelb)
-
-let count = 0;
-
-
-function setup() {
-    //subjectivity
-    objective = color(0, 255, 255);
-    subjective = color(255, 255, 0);
-
-    frameRate(1);
+//Subjectivity -> Farbe
+function getRGB(str) {
+    var match = str.match(/rgba?\((\d{1,3}), ?(\d{1,3}), ?(\d{1,3})\)?(?:, ?(\d(?:\.\d?))\))?/);
+    return match ? {
+        red: match[1],
+        green: match[2],
+        blue: match[3]
+    } : {};
 }
 
-function draw() {
-    if (count > (Object.keys(json).length - 1)) { //macht, dass es wieder vorne anfängt wenn Liste zu Ende ist
-        count = 0;
-    }
-    //subjectivity
-    let mycolor = lerpColor(objective, subjective, json[count].subjectivity); //färbt Text nach objektiv/subjektiv
-    fill(mycolor);
+function mixColor(percentage) {
+    let c1 = getRGB(color1);
+    let c2 = getRGB(color2);
+
+    let colormix = [
+        Math.round((1 - percentage) * c1.red + percentage * c2.red),
+        Math.round((1 - percentage) * c1.green + percentage * c2.green),
+        Math.round((1 - percentage) * c1.blue + percentage * c2.blue)
+    ];
+
+    return (colormix);
+}
+
+//Polarity -> Schriftgrösse
+// function fontSize(percentage) {
+//     let f1 = 
+//     let f2 =
+// }
 
 
-    text(json[count].text, 50, 50, 500, window.innerHeight);
+/*function roughScale(x, base) {
+    const parsed = parseInt('polarity', 10);
+    if (isNaN(parsed)) {return 0;}
+    return parsed * 100;
+}
 
-    count++;
-}*/
+console.log(roughScale('polarity', 10));
 
 
+
+//Confidence -> Transparenz
+*/
+
+
+
+
+printJSON();
 
 //Toggle switch buttons
-//Button Startseite
-var input = document.getElementById('toggleswitch_startseite');
-input.addEventListener('change', function() {
-    if (this.checked) window.location.href = 'index_2.html';
-});
-
-
 //Button für Nur E-Mail und Word
 var input = document.getElementById('toggleswitch1');
-console.log(input);
+//console.log(input);
 input.addEventListener('change', function() {
     if (this.checked) {
         console.log("aktiv")
@@ -122,7 +141,7 @@ input.addEventListener('change', function() {
 
 //Button für Nur Whatsapp
 var input = document.getElementById('toggleswitch2');
-console.log(input);
+//console.log(input);
 input.addEventListener('change', function() {
     if (this.checked) {
         console.log("aktiv")
@@ -167,7 +186,7 @@ input.addEventListener('change', function() {
 
 //Button für Nur Chalid
 var input = document.getElementById('toggleswitch3');
-console.log(input);
+//console.log(input);
 input.addEventListener('change', function() {
     if (this.checked) {
         console.log("aktiv")
@@ -189,7 +208,7 @@ input.addEventListener('change', function() {
 
 //Button für Nur Sonja
 var input = document.getElementById('toggleswitch4');
-console.log(input);
+//console.log(input);
 input.addEventListener('change', function() {
     if (this.checked) {
         console.log("aktiv")
@@ -208,12 +227,9 @@ input.addEventListener('change', function() {
 });
 
 
-
-
-
 //Button subjectivity
 var input = document.getElementById('toggleswitch5');
-console.log(input);
+//console.log(input);
 input.addEventListener('change', function() {
     if (this.checked) {
         console.log("aktiv")
@@ -221,17 +237,11 @@ input.addEventListener('change', function() {
         let sonja = document.getElementById("text-path-two");
         //Chalid
         for (let i = 0; i < chalid.children.length; i++) {
-            console.log(chalid.children[i].classList.contains("Ewolack"));
-            if (chalid.children[i].classList.contains("Ewolack")) {
-                chalid.children[i].style.display = "none";
-            }
+            chalid.children[i].style.fill = chalid.children[i].getAttribute("subjectivityColor");
         }
         //Sonja
         for (let i = 0; i < sonja.children.length; i++) {
-            console.log(sonja.children[i].classList.contains("Ewolack"));
-            if (sonja.children[i].classList.contains("Ewolack")) {
-                sonja.children[i].style.display = "none";
-            }
+            sonja.children[i].style.fill = sonja.children[i].getAttribute("subjectivityColor")
         }
 
     } else {
@@ -241,15 +251,79 @@ input.addEventListener('change', function() {
         let sonja = document.getElementById("text-path-two");
         //Chalid
         for (let i = 0; i < chalid.children.length; i++) {
-            if (chalid.children[i].classList.contains("Ewolack")) {
-                chalid.children[i].style.display = "block";
-            }
+            chalid.children[i].style.fill = "";
         }
         //Sonja
         for (let i = 0; i < sonja.children.length; i++) {
-            if (sonja.children[i].classList.contains("Ewolack")) {
-                sonja.children[i].style.display = "block";
-            }
+            sonja.children[i].style.fill = "";
         }
     }
 });
+
+/*
+//Button polarity
+var input = document.getElementById('toggleswitch6');
+//console.log(input);
+input.addEventListener('change', function() {
+    if (this.checked) {
+        console.log("aktiv")
+        let chalid = document.getElementById("text-path");
+        let sonja = document.getElementById("text-path-two");
+        //Chalid
+        for (let i = 0; i < chalid.children.length; i++) {
+            chalid.children[i].style.fontSize = chalid.children[i].getAttribute("polarityFontsize");
+        }
+        //Sonja
+        for (let i = 0; i < sonja.children.length; i++) {
+            sonja.children[i].style.fontSize = sonja.children[i].getAttribute("polarityFontsize")
+        }
+
+    } else {
+        console.log("inaktiv")
+            // show all again
+        let chalid = document.getElementById("text-path");
+        let sonja = document.getElementById("text-path-two");
+        //Chalid
+        for (let i = 0; i < chalid.children.length; i++) {
+            chalid.children[i].style.fontSize = "";
+        }
+        //Sonja
+        for (let i = 0; i < sonja.children.length; i++) {
+            sonja.children[i].style.fontSize = "";
+        }
+    }
+});
+
+
+//Button confidence
+var input = document.getElementById('toggleswitch7');
+//console.log(input);
+input.addEventListener('change', function() {
+    if (this.checked) {
+        console.log("aktiv")
+        let chalid = document.getElementById("text-path");
+        let sonja = document.getElementById("text-path-two");
+        //Chalid
+        for (let i = 0; i < chalid.children.length; i++) {
+            chalid.children[i].style.opacity = chalid.children[i].getAttribute("confidenceOpacity");
+        }
+        //Sonja
+        for (let i = 0; i < sonja.children.length; i++) {
+            sonja.children[i].style.opacity = sonja.children[i].getAttribute("confidenceOpacity")
+        }
+
+    } else {
+        console.log("inaktiv")
+            // show all again
+        let chalid = document.getElementById("text-path");
+        let sonja = document.getElementById("text-path-two");
+        //Chalid
+        for (let i = 0; i < chalid.children.length; i++) {
+            chalid.children[i].style.opacity = "";
+        }
+        //Sonja
+        for (let i = 0; i < sonja.children.length; i++) {
+            sonja.children[i].style.opacity = "";
+        }
+    }
+});*/
