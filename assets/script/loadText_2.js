@@ -16,6 +16,7 @@ function writeTextOnPath() {
         let div = document.createElementNS("http://www.w3.org/2000/svg", "tspan");
         div.textContent += json[n]['text'];
         div.classList.add(json[n]['application']);
+        div.classList.add("subjectivity" + json[n]['subjectivity']);
         if (json[n]['author'] == 'Sonja') {
             sonja.appendChild(div);
         } else {
@@ -213,7 +214,7 @@ input.addEventListener('change', function() {
 //Button subjectivity
 var input = document.getElementById('toggleswitch5');
 console.log(input);
-input.addEventListener('change', function () {
+input.addEventListener('change', function() {
     if (this.checked) {
         console.log("aktiv")
         let chalid = document.getElementById("text-path");
@@ -235,7 +236,7 @@ input.addEventListener('change', function () {
 
     } else {
         console.log("inaktiv")
-        // show all again
+            // show all again
         let chalid = document.getElementById("text-path");
         let sonja = document.getElementById("text-path-two");
         //Chalid
