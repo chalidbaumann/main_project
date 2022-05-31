@@ -50,6 +50,7 @@ body {
     background-color: rgb(0, 0, 0);
     position: absolute;
     z-index: -5;
+    background-image: url("img/hintergrund2.png");
 }
 
 h2 {
@@ -103,15 +104,15 @@ span {
 /*SVG-Pfade*/
 
 .svg1 {
-    width: 82vw;
-    height: 82vw;
+    width: 55vw;
+    height: 55vw;
     z-index: 2;
     pointer-events: none;
 }
 
 .svg2 {
-    width: 75vw;
-    height: 75vw;
+    width: 55vw;
+    height: 55vw;
     z-index: 1;
     pointer-events: none;
 }

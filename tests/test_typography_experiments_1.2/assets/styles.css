@@ -3,9 +3,14 @@ body{
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
+
 .navigationoben{
     position:fixed;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
     height: 300px;
     margin-bottom: 10px;
     display: inline;
@@ -20,6 +25,7 @@ body{
     height: 100px;
     border-radius: 50%;
     border: solid 2px black;
+    background-color: white;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -45,6 +51,7 @@ body{
 .hinweishand{
     margin-left: 20px;
     font-size: 70px;
+    color: white;
 }
 
 span{

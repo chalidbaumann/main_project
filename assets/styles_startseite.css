@@ -15,12 +15,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Mirza:wght@400;500&family=Mulish:ital,wght@1,200&family=Quicksand&display=swap');
 
-/*Noto Sans Black 900*/
-
-
-/*h1*/
-
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap');
 
 /*Noto Sans Regular 400*/
 
@@ -31,15 +25,24 @@
 
 /*Noto Sans Light 300*/
 
+/*h1*/
+/*Noto Sans Light 300*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap');
+
 
 /*p*/
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+
+
+
 h1 {
     font-family: 'Noto Sans', sans-serif;
-    font-weight: 700px;
-    font-size: 200px;
-    margin-bottom: 0;
+    font-weight: 900px;
+    font-size: 300px;
+    line-height: 320px;
+    line-break:auto;
     margin-top: 0;
 }
 
@@ -57,7 +60,8 @@ body {
     background-color: rgb(0, 0, 0);
     position: absolute;
     z-index: -5;
-    background-image: url("img/foto1.png");
+    background-image: url("img/hintergrund1.png");
+    background-size:inherit;
 }
 
 h2 {
@@ -178,3 +182,5 @@ input:checked+.roundbutton:before {
 .mycursor {
     cursor: url("img/textcursor_aquamarine.png"), pointer;
 }
+
+

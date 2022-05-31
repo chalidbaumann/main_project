@@ -69,9 +69,8 @@ cursor: pointer;
     font-size: xxx-large;
     align-items: center;
 }
-
 .fa {
-    /*display: flex;*/
+    display: flex;
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
     text-rendering: auto;

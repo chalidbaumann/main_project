@@ -3,6 +3,10 @@ body{
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 .navigationoben{
     position:fixed;
     /*background-color: rgb(255, 255, 255);*/

@@ -28,7 +28,8 @@ printJSON();
 
 
 
-let chalid = document.getElementById("text-path");
+
+/*let chalid = document.getElementById("text-path");
 let sonja = document.getElementById("text-path-two");
 
 //subjectivity
@@ -58,13 +59,11 @@ function draw() {
     text(json[count].text, 50, 50, 500, window.innerHeight);
 
     count++;
-}
+}*/
 
 
 
-
-
-//Toggle switch button
+//Toggle switch buttons
 //Button Startseite
 var input = document.getElementById('toggleswitch_startseite');
 input.addEventListener('change', function() {
@@ -212,7 +211,7 @@ input.addEventListener('change', function() {
 
 
 //Button subjectivity
-/*var input = document.getElementById('toggleswitch5');
+var input = document.getElementById('toggleswitch5');
 console.log(input);
 input.addEventListener('change', function () {
     if (this.checked) {
@@ -252,4 +251,4 @@ input.addEventListener('change', function () {
             }
         }
     }
-});*/
+});
