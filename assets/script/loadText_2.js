@@ -1,3 +1,18 @@
+/*var WebFont = require('webfontloader');
+
+WebFont.load({
+    google: {
+        families: ['Merriweather, serif', 'Inter, sans-serif']
+    }
+});*/
+
+/*WebFontConfig = {
+    google: {
+        families: ['Merriweather, serif', 'Inter, sans-serif']
+    }
+};*/
+
+
 let json;
 //Farben für Subjectivity
 let color1 = "rgb(200,10,0)";
@@ -29,8 +44,8 @@ function writeTextOnPath() {
         let f = fontSize(json[n]['polarity']);
         div.setAttribute("polarityFontsize", f);
         //Add confidence
-        /*let o = opacity(json[n]['confidence']);
-        div.setAttribute("confidenceOpacity", "opacity(" + o[0] + "," + o[1] + "," + o[2] +")");*/
+        let o = (json[n]['confidence']);
+        div.setAttribute("confidenceOpacity", o);
         //Author
         if (json[n]['author'] == 'Sonja') {
             sonja.appendChild(div);
@@ -75,24 +90,31 @@ function fontSize(percentage) {
 
 }
 
+printJSON();
 
-/*function roughScale(x, base) {
-    const parsed = parseInt('polarity', 10);
-    if (isNaN(parsed)) {return 0;}
-    return parsed * 100;
+
+
+//Schriftart für E-Mail/Word und WhatsApp
+let chalid = document.getElementById("text-path");
+let sonja = document.getElementById("text-path-two");
+//Chalid
+for (let i = 0; i < chalid.children.length; i++) {
+    if (chalid.children[i].classList.contains("Whatsapp")) {
+        chalid.children[i].style.fontFamily="Inter";
+    } else {
+        chalid.children[i].style.fontFamily="Merriweather";
+    }
+}
+//Sonja
+for (let i = 0; i < sonja.children.length; i++) {
+    if (sonja.children[i].classList.contains("Whatsapp")) {
+        sonja.children[i].style.fontFamily="Inter";
+    } else {
+        sonja.children[i].style.fontFamily="Merriweather";
+    }
 }
 
-console.log(roughScale('polarity', 10));
 
-
-
-//Confidence -> Transparenz
-*/
-
-
-
-
-printJSON();
 
 //Toggle switch buttons
 //Button für Nur E-Mail und Word
@@ -122,11 +144,7 @@ input.addEventListener('change', function() {
 
     } else {
         //console.log("inaktiv")
-<<<<<<< HEAD
-            // show all again
-=======
         // show all again
->>>>>>> 2a3e9d47c58ae9f93cc5d3f92829f1f269e08008
         let chalid = document.getElementById("text-path");
         let sonja = document.getElementById("text-path-two");
         //Chalid
@@ -143,12 +161,6 @@ input.addEventListener('change', function() {
         }
     }
 });
-
-
-
-
-
-
 
 
 //Button für Nur Whatsapp
@@ -297,22 +309,22 @@ input.addEventListener('change', function() {
         let sonja = document.getElementById("text-path-two");
         //Chalid
         for (let i = 0; i < chalid.children.length; i++) {
-            chalid.children[i].style.fontSize = 5;
+            chalid.children[i].style.fontSize = "";
         }
         //Sonja
         for (let i = 0; i < sonja.children.length; i++) {
-            sonja.children[i].style.fontSize = 8;
+            sonja.children[i].style.fontSize = "";
         }
     }
 });
 
-/*
+
 //Button confidence
 var input = document.getElementById('toggleswitch7');
 //console.log(input);
 input.addEventListener('change', function() {
     if (this.checked) {
-        console.log("aktiv")
+        //console.log("aktiv")
         let chalid = document.getElementById("text-path");
         let sonja = document.getElementById("text-path-two");
         //Chalid
@@ -325,7 +337,7 @@ input.addEventListener('change', function() {
         }
 
     } else {
-        console.log("inaktiv")
+        //console.log("inaktiv")
             // show all again
         let chalid = document.getElementById("text-path");
         let sonja = document.getElementById("text-path-two");
@@ -338,4 +350,4 @@ input.addEventListener('change', function() {
             sonja.children[i].style.opacity = "";
         }
     }
-});*/
+});

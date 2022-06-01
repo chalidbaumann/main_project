@@ -225,6 +225,30 @@ input:checked+.roundbutton:before {
     fill: rgb(127, 133, 255);
 }
 
+/*funktioniert nicht
+#w1:hover{
+    fill: violet;  
+}
+*/
+
+/*funktioniert nicht
+#w1:hover .st1{
+    fill: tomato;
+}
+*/
+
+/*funktioniert nicht
+svg:hover #w1 {
+    fill: wheat;
+}
+*/
+
+/*funktioniert nicht
+svg:hover #w1 .st1{
+    fill: beige;
+}
+*/
+
 #r1{
     fill:antiquewhite
 }
@@ -248,3 +272,4 @@ input:checked+.roundbutton:before {
 #n1{
     fill:antiquewhite;
 }
+

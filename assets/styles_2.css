@@ -1,40 +1,37 @@
 /*https://youtu.be/M8Gq_HPDXsU*/
 
 
-/*
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-*/
-
-
-/*Schrift Chalid: Merriweather Sans, Regular 400 Italic*/
-
-
-/*@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&display=swap');
+/*Merriweather Sans, Regular 400 Italic*/
+/*@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&display=swap');*/
 
 /*Quicksand, Regular 400*/
-
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Mirza:wght@400;500&family=Mulish:ital,wght@1,200&family=Quicksand&display=swap');
 
-/*Noto Sans Black 900*/
-
-
 /*h1*/
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap');
 
-/*Noto Sans Regular 400*/
-
-
 /*h2*/
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
-/*Noto Sans Light 300*/
-
-
 /*p*/
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+
+
+/*Schriften E-Mail/Word und Whatsapp*/
+/*@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla&display=swap');*/
+@font-face {
+    font-family: "Merriweather", "Inter";
+    src: url("font/Merriweather-Regular.woff") format("woff"),
+    url("font/Inter-Regular.woff") format("woff")
+}
+
+
+
+
+
+
 p {
     font-size: 15px;
 }
@@ -42,6 +39,10 @@ p {
 a {
     text-decoration: none;
     color: black;
+}
+
+a:hover{
+    cursor: pointer;
 }
 
 body {
@@ -80,7 +81,7 @@ span {
     flex-wrap: wrap;
     height: 100vh;
     /*h width: 75%;*/
-    width: 70%;
+    width: 80%;
     position: relative;
     left: 30px;
     margin-right: 0;
@@ -90,32 +91,33 @@ span {
 /*richtet alle Elemente mittig aus*/
 
 .center-fixed-element {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
+    position:inherit;
+    top: 10%;
+    left: 10%;
+    transform: translate(-30%, -30%);
+    -moz-transform: translate(-30%, -30%);
+    -webkit-transform: translate(-00%, -20%);
+    -o-transform: translate(-10%, -10%);
 }
 
 
 /*SVG-Pfade*/
 
 .svg1 {
-    width: 80vw;
-    height: 80vw;
+    width: 120vw;
+    height: 120vw;
     z-index: 2;
     pointer-events: none;
     fill: white;
 }
 
 .svg2 {
-    width: 80vw;
-    height: 80vw;
+    width: 110vw;
+    height: 110vw;
     z-index: 1;
     pointer-events: none;
     fill: white;
+    margin-left: 130px;
 }
 
 
@@ -125,8 +127,8 @@ span {
     margin: 0 0 0 2rem;
     position: relative;
     display: inline-block;
-    width: 6rem;
-    height: 3.4rem;
+    width: 4.5rem;
+    height: 2.4rem;
     z-index: 3;
 }
 
@@ -144,26 +146,33 @@ span {
     bottom: 0;
     right: 0;
     width: 100%;
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.493);
     display: block;
     transition: all 0.3s;
     border-radius: 3.4rem;
     cursor: pointer;
 }
 
+.roundbutton:hover{
+    background-color: rgb(128, 128, 128);
+}
+
+.roundbutton:before:hover{
+    background-color: rgb(255, 255, 255);
+}
 
 /*Switch im Button*/
 
 .roundbutton:before {
     position: absolute;
     content: "";
-    height: 2.4rem;
-    width: 2.5rem;
+    height: 1.5rem;
+    width: 1.6rem;
     border-radius: 100%;
     display: block;
     left: 0.5rem;
     bottom: 0.5rem;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.581);
     transition: all 0.3s;
 }
 
@@ -175,7 +184,7 @@ input:checked+.roundbutton {
 }
 
 input:checked+.roundbutton:before {
-    transform: translate(2.6rem, 0);
+    transform: translate(2rem, 0);
 }
 
 
@@ -221,12 +230,12 @@ input:checked+.roundbutton:before {
     flex-wrap: wrap;
     column-width: 100px;
     column-gap: 0px;
-    margin-top: 450px;
+    margin-top: 550px;
     margin-left: 10px;
     height: 470px;
     position: fixed;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content:flex-start;
     flex-wrap: wrap;
 }
 
@@ -237,7 +246,7 @@ input:checked+.roundbutton:before {
     color: rgb(255, 255, 255);
     font-family: 'Quicksand', sans-serif;
     text-align: left;
-    margin-left: 40px;
+    margin-left: 33px;
     margin-bottom: 9px;
     margin-top: 30px;
     margin-right: 20px;
@@ -342,3 +351,57 @@ input:checked+.roundbutton:before {
 }
 
 
+span {
+    content: "\261A";
+}
+
+
+
+/*Navigation oben*/
+.navigationoben {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0);
+    /*height: flex;*/
+    margin-bottom: 10px;
+    display: inline;
+    z-index: 1;
+    padding: 4px;
+    margin-bottom: 100px;
+}
+
+.homebutton {
+    display: flex;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 2px black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    z-index: 10;
+}
+
+.homebutton:hover {
+    box-shadow: #3f3 10px 10px 10px;
+    background-color: rgb(242, 242, 242);
+}
+
+.w3large {
+    font-size: 60px;
+    text-align: center;
+}
+
+/*Navigation oben*/
+.containermenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hinweishand {
+    margin-left: 20px;
+    font-size: 70px;
+    color: white;
+}
