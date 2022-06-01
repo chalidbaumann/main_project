@@ -1,9 +1,5 @@
 /*https://youtu.be/M8Gq_HPDXsU*/
 
-
-/*Merriweather Sans, Regular 400 Italic*/
-/*@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&display=swap');*/
-
 /*Quicksand, Regular 400*/
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Mirza:wght@400;500&family=Mulish:ital,wght@1,200&family=Quicksand&display=swap');
 
@@ -17,22 +13,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
 
 
+body {
+    height: 500vh;
+    margin: 0;
+    background-color: black;
+    position: absolute;
+    z-index: -5;
+    background-image: url("img/hintergrund5.png");
+}
 
-/*Schriften E-Mail/Word und Whatsapp*/
-/*@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');*/
-/*@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla&display=swap');*/
-/*@font-face {
-    font-family: "Merriweather", "Inter";
-    src: url("font/Merriweather-Regular.woff") format("woff"),
-    url("font/Inter-Regular.woff") format("woff")
-}*/
+h1 {
+    font-family: 'Noto Sans', serif;
+    color: white;
+    margin-left: 33px;
+    font-size: 18px;
+}
 
-
-
-
-
-
-
+/*Schriftgrösse Text Buttons*/
 p {
     font-size: 15px;
 }
@@ -46,49 +43,110 @@ a:hover{
     cursor: pointer;
 }
 
-body {
-    height: 500vh;
-    margin: 0;
-    background-color: black;
+
+/*Hover-Infos Legende*/
+/*Beide*/
+.extra { 
+    display: none;
+}
+
+/*Titel*/
+h1:hover {
+    color: aquamarine;
+}
+
+h1:hover .extra {
+    display: inline-block;
+    font-size: 11px;
+}
+
+/*Text*/
+/*.navbutton:hover .extra {
+    display: inline-block;
+    font-size: 11px; 
+}*/
+
+
+/*Dropdown-Menu*/
+.dropdown {
+    /* Border */
+    border: solid 5px black;
+    background-color: white;
+    display: flex;
+    /* Reset list styles */
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-left: 30px;
+    padding-top: 0;
+    padding-left: 0;
+    z-index: 6;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    width: 150px;
+    position: fixed;
+}
+
+.dropdown li {
+    /* Spacing */
+    padding: 8px;
+    background-color: white;
+    /*border: black 5px;*/
+    /* Used to position the sub dropdown */
+    position: relative;
+    z-index: 6;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    width: 150px;
+    transition-duration: 0.2s;
+}
+
+/* The sub dropdown */
+.dropdown ul {
+    z-index: 6;
+    /* Border */
+    /* border: 2px solid rgb(0, 0, 0);*/
+    /* Hidden by default */
+    display: none;
+    /* Absolute position */
+    left: 0;
     position: absolute;
-    z-index: -5;
-    background-image: url("img/hintergrund5.png");
-}
-
-h2 {
+    top: 100%;
+    /* Reset styles */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* Width */
+    width: 150px;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: 0;
-    margin-top: 0;
+    font-size: 15px;
 }
 
-span {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: 0;
-    margin-top: 0;
-    z-index: 5;
-    position: relative;
+/* The second level sub dropdown */
+.dropdown ul ul {
+    z-index: 6;
+    left: 100%;
+    position: absolute;
+    top: 0;
 }
 
+/* Change background color of list item when being hovered */
+.dropdown li:hover {
+    z-index: 6;
+    background-color: rgba(227, 227, 227, 0);
+    cursor: pointer;
+}
 
-/*Container = Plakat Hintergrundfläche*/
-.container {
-    background-color: rgba(255, 255, 255, 0);
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 100vh;
-    /*h width: 75%;*/
-    width: 80%;
-    position: relative;
-    left: 30px;
-    margin-right: 0;
+/* Show the direct sub dropdown when hovering the list item */
+.dropdown li:hover>ul {
+    z-index: 6;
+    display: block;
+    cursor: pointer;
+    background-color: aquamarine;
 }
 
 
-/*richtet alle Elemente mittig aus*/
+/*Richtet alle Elemente aus*/
 .center-fixed-element {
     position:inherit;
     top: 10%;
@@ -133,7 +191,6 @@ span {
     display: none;
 }
 
-
 /*Button vor dem Drücken*/
 .roundbutton {
     position: absolute;
@@ -149,6 +206,7 @@ span {
     cursor: pointer;
 }
 
+/*Hellerwerden beim drüberhovern*/
 .roundbutton:hover{
     background-color: rgb(128, 128, 128);
 }
@@ -170,7 +228,6 @@ span {
     background-color: rgba(255, 255, 255, 0.581);
     transition: all 0.3s;
 }
-
 
 /*Button nach dem Drücken*/
 input:checked+.roundbutton {
@@ -199,41 +256,37 @@ input:checked+.roundbutton:before {
 }
 
 
-/*Flexbox für Buttons und Text*/
+/*Legende und Beschriftung*/
 /*Äussere Box*/
 .flex-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    width: 300px;
+    width: 200px;
     margin-top: 250px;
     margin-left: 0;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: black;
 }
 
-
-
-/*Hier hinein kommen die Buttons*/
+/*Innere Box für Buttons*/
 .navbox {
     flex-direction: column;
-    column-count: 2;
     flex-wrap: wrap;
-    column-width: 100px;
-    column-gap: 0px;
-    margin-top: 550px;
+    /*column-width: 100px;
+    column-gap: 0px;*/
+    margin-top: 400px;
     margin-left: 10px;
-    height: 470px;
+    height: 570px;
     position: fixed;
     align-items: flex-start;
-    justify-content:flex-start;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
-
 
 /*Text zum Button*/
 .navbutton {
     color: rgb(255, 255, 255);
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     text-align: left;
     margin-left: 33px;
     margin-bottom: 9px;
@@ -242,151 +295,7 @@ input:checked+.roundbutton:before {
 }
 
 
-/*Dropdown-Menu*/
-.dropdown {
-    /* Border */
-    border: solid 5px black;
-    background-color: white;
-    display: flex;
-    /* Reset list styles */
-    list-style-type: none;
-    margin-top: 20px;
-    margin-left: 40px;
-    padding-left: 30px;
-    padding-top: 0;
-    padding-left: 0;
-    z-index: 6;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 30px;
-    width: 150px;
-    position: fixed;
-}
-
-.dropdown li {
-    /* Spacing */
-    padding: 8px;
-    background-color: white;
-    /*border: black 5px;*/
-    /* Used to position the sub dropdown */
-    position: relative;
-    z-index: 6;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 15px;
-    width: 150px;
-    transition-duration: 0.2s;
-}
-
-
-/* The sub dropdown */
-.dropdown ul {
-    z-index: 6;
-    /* Border */
-    /* border: 2px solid rgb(0, 0, 0);*/
-    /* Hidden by default */
-    display: none;
-    /* Absolute position */
-    left: 0;
-    position: absolute;
-    top: 100%;
-    /* Reset styles */
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    /* Width */
-    width: 150px;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 15px;
-}
-
-
-/* The second level sub dropdown */
-.dropdown ul ul {
-    z-index: 6;
-    left: 100%;
-    position: absolute;
-    top: 0;
-}
-
-
-/* Change background color of list item when being hovered */
-.dropdown li:hover {
-    z-index: 6;
-    background-color: rgba(227, 227, 227, 0);
-    cursor: pointer;
-}
-
-
-/* Show the direct sub dropdown when hovering the list item */
-.dropdown li:hover>ul {
-    z-index: 6;
-    display: block;
-    cursor: pointer;
-    background-color: aquamarine;
-}
-
-
 /*Anderer Cursor*/
 .mycursor {
     cursor: url("img/textcursor_aquamarine.png"), pointer;
-}
-
-
-span {
-    content: "\261A";
-}
-
-
-
-/*Navigation oben*/
-.navigationoben {
-    position: fixed;
-    background-color: rgba(255, 255, 255, 0);
-    /*height: flex;*/
-    margin-bottom: 10px;
-    display: inline;
-    z-index: 1;
-    padding: 4px;
-    margin-bottom: 100px;
-}
-
-.homebutton {
-    display: flex;
-    cursor: pointer;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: solid 2px black;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    z-index: 10;
-}
-
-.homebutton:hover {
-    box-shadow: #3f3 10px 10px 10px;
-    background-color: rgb(242, 242, 242);
-}
-
-.w3large {
-    font-size: 60px;
-    text-align: center;
-}
-
-/*Navigation oben*/
-.containermenu {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.hinweishand {
-    margin-left: 20px;
-    font-size: 70px;
-    color: white;
-}
-
-.hwhite{
-    color: white;
-    font-size: 20px;;
 }

@@ -21,6 +21,7 @@
 body {
     background-color: rgb(0, 0, 0);
     /*background-image: url("img/hintergrund5.png");*/
+    margin-left: 30px;
 }
 
 h1 {
@@ -57,6 +58,7 @@ p {
     color: white;
 }
 
+/*Navitation oben*/
 a {
     text-decoration: none;
 }
@@ -69,47 +71,46 @@ a:hover {
     cursor: pointer;
 }
 
-/*Navigation oben*/
 .navigationoben {
     position: fixed;
-    background-color: rgba(255, 255, 255, 0);
-    /*height: flex;*/
+    /*background-color: rgb(255, 255, 255);*/
+    height: 300px;
     margin-bottom: 10px;
     display: inline;
     z-index: 1;
     padding: 4px;
-    margin-bottom: 100px;
 }
 
+.containermenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*Haus*/
 .homebutton {
     display: flex;
     cursor: pointer;
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: solid 2px black;
+    /*border: solid 2px white;*/
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: white;
-    z-index: 10;
+    color: white;
+    background-color: dimgray;
 }
 
 .homebutton:hover {
-    box-shadow: #3f3 10px 10px 10px;
-    background-color: rgb(242, 242, 242);
+    /*box-shadow: #7fffd4 10px 10px 10px;*/
+    background-color: aquamarine;
 }
 
+/*Grösse Haus*/
 .w3large {
     font-size: 60px;
     text-align: center;
-}
-
-/*Navigation oben*/
-.containermenu {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 
 .hinweishand {
