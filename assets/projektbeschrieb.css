@@ -1,24 +1,14 @@
-/*Noto Sans Black 900*/
+/*Schrift für p (Noto)*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
 
-
-/*h1*/
-
+/*Schrift für h1 und h2 (Noto Black 900)*/
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap');
 
-/*Noto Sans Regular 400*/
 
-
-/*h2*/
-
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
-
-/*Noto Sans Light 300*/
-
-
-/*p*/
-
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
-body {}
+body {
+    background-image: url("img/hintergrund5.png");
+    margin-left: 30px;
+}
 
 h1 {
     font-family: 'Noto Sans', sans-serif;
@@ -26,15 +16,16 @@ h1 {
     font-size: 100px;
     margin-bottom: 0;
     margin-top: 0;
+    color: white;
 }
 
 h2 {
     font-family: 'Noto Sans', sans-serif;
-    ;
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 0;
     margin-top: 0;
+    color: white;
 }
 
 p {
@@ -43,8 +34,10 @@ p {
     font-size: 15px;
     margin-bottom: 30px;
     line-height: 1.4;
+    color: white;
 }
 
+/*Navitation oben*/
 a {
     text-decoration: none;
 }
@@ -59,42 +52,12 @@ a:hover {
 
 .navigationoben {
     position: fixed;
-    background-color: rgb(255, 255, 255);
+    /*background-color: rgb(255, 255, 255);*/
     height: 300px;
     margin-bottom: 10px;
     display: inline;
     z-index: 1;
     padding: 4px;
-}
-
-.container {
-    margin-top: 330px;
-    position: absolute;
-    width: 700px;
-    column-count: 2;
-    column-gap: 30px;
-}
-
-.homebutton {
-    display: flex;
-    cursor: pointer;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: solid 2px black;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
-.homebutton:hover {
-    box-shadow: #3f3 10px 10px 10px;
-    background-color: rgb(242, 242, 242);
-}
-
-.w3large {
-    font-size: 60px;
-    text-align: center;
 }
 
 .containermenu {
@@ -103,14 +66,51 @@ a:hover {
     align-items: center;
 }
 
+/*Haus*/
+.homebutton {
+    display: flex;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /*border: solid 2px white;*/
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: dimgray;
+}
+
+.homebutton:hover {
+    /*box-shadow: #7fffd4 10px 10px 10px;*/
+    background-color: aquamarine;
+}
+
+/*Grösse Haus*/
+.w3large {
+    font-size: 60px;
+    text-align: center;
+}
+
 .hinweishand {
     margin-left: 20px;
     font-size: 70px;
+    color: white;
+}
+
+
+/*Position ganzer Text*/
+.container {
+    margin-top: 330px;
+    position: absolute;
+    width: 700px;
+    column-count: 2;
+    column-gap: 30px;
+    /*background-color: white;*/
 }
 
 
 /*Anderer Cursor*/
-
 .mycursor {
     cursor: url("img/textcursor_aquamarine.png"), pointer;
 }

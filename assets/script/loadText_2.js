@@ -35,7 +35,7 @@ async function printJSON() {
 function writeTextOnPath() {
     let chalid = document.getElementById("text-path");
     let sonja = document.getElementById("text-path-two");
-    for (let n = 19; n < 28; n++) {
+    for (let n = 0; n < json.length; n++) {
         //console.log(json[n]['text'], json[n]['application'], json[n]['subjectivity'], json[n]['polarity'], json[n]['confidence'])
         let div = document.createElementNS("http://www.w3.org/2000/svg", "tspan");
         //Add text
