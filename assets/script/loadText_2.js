@@ -15,8 +15,8 @@ WebFont.load({
 
 let json;
 //Farben für Subjectivity
-let color1 = "rgb(200,10,0)";
-let color2 = "rgb(10,10,255)";
+let color1 = "rgb(0, 255, 255)"; //objektiv
+let color2 = "rgb(234, 10, 142)"; //subjektiv
 //Fetch
 async function printJSON() {
     const response = await fetch("assets/script/test_2.json");
@@ -25,6 +25,11 @@ async function printJSON() {
     writeTextOnPath();
 }
 
+
+
+//let n = 19; n < 28; n++
+
+//for (let n = 0; n < json.length; n++) 
 
 //Text JSON auf SVG-Pfad tun
 function writeTextOnPath() {
@@ -36,6 +41,8 @@ function writeTextOnPath() {
         //Add text
         div.textContent += json[n]['text'];
         //Add application
+        /*let s = (json[n]['application']);
+        div.setAttribute("applicationStroke", s);*/
         div.classList.add(json[n]['application']);
         //Add subjectivity
         let c = mixColor(json[n]['subjectivity']);
@@ -94,25 +101,48 @@ printJSON();
 
 
 
-//Schriftart für E-Mail/Word und WhatsApp
-let chalid = document.getElementById("text-path");
+//Style für E-Mail/Word und WhatsApp
+/*let chalid = document.getElementById("text-path");
 let sonja = document.getElementById("text-path-two");
 //Chalid
 for (let i = 0; i < chalid.children.length; i++) {
     if (chalid.children[i].classList.contains("Whatsapp")) {
-        chalid.children[i].style.fontFamily="Inter";
+        chalid.children[i].style.stroke= chalid.children[i].getAttribute("applicationStroke");
     } else {
-        chalid.children[i].style.fontFamily="Merriweather";
+        chalid.children[i].style.stroke="grey";
     }
 }
 //Sonja
 for (let i = 0; i < sonja.children.length; i++) {
     if (sonja.children[i].classList.contains("Whatsapp")) {
-        sonja.children[i].style.fontFamily="Inter";
+        sonja.children[i].style.stroke="green";
     } else {
-        sonja.children[i].style.fontFamily="Merriweather";
+        sonja.children[i].style.stroke="grey";
     }
 }
+
+for (let i = 0; i < sonja.children.length; i++) {
+    sonja.children[i].style.opacity = sonja.children[i].getAttribute("confidenceOpacity")
+}
+//Style für E-Mail/Word und WhatsApp
+let chalid = document.getElementById("text-path");
+let sonja = document.getElementById("text-path-two");
+//Chalid
+for (let i = 0; i < chalid.children.length; i++) {
+    if (chalid.children[i].classList.contains("Whatsapp")) {
+        chalid.children[i].style.stroke= chalid.children[i].getAttribute("applicationStroke");
+    } else {
+    chalid.children[i].style.stroke="";
+    }
+}
+//Sonja
+for (let i = 0; i < sonja.children.length; i++) {
+    if (chalid.children[i].classList.contains("Whatsapp")) {
+    sonja.children[i].style.opacity = sonja.children[i].getAttribute("applicationStroke");
+    } else {
+    sonja.children[i].style.stroke="";
+    }
+}*/
 
 
 
@@ -173,14 +203,14 @@ input.addEventListener('change', function() {
         let sonja = document.getElementById("text-path-two");
         //Chalid
         for (let i = 0; i < chalid.children.length; i++) {
-            console.log(chalid.children[i].classList.contains("Ewolack"));
+            //console.log(chalid.children[i].classList.contains("Ewolack"));
             if (chalid.children[i].classList.contains("Ewolack")) {
                 chalid.children[i].style.display = "none";
             }
         }
         //Sonja
         for (let i = 0; i < sonja.children.length; i++) {
-            console.log(sonja.children[i].classList.contains("Ewolack"));
+            //console.log(sonja.children[i].classList.contains("Ewolack"));
             if (sonja.children[i].classList.contains("Ewolack")) {
                 sonja.children[i].style.display = "none";
             }
@@ -333,7 +363,7 @@ input.addEventListener('change', function() {
         }
         //Sonja
         for (let i = 0; i < sonja.children.length; i++) {
-            sonja.children[i].style.opacity = sonja.children[i].getAttribute("confidenceOpacity")
+            sonja.children[i].style.opacity = sonja.children[i].getAttribute("confidenceOpacity");
         }
 
     } else {

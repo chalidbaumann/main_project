@@ -222,7 +222,7 @@ input:checked+.roundbutton:before {
 
 
 #w1{
-    fill: rgb(127, 133, 255);
+    fill:rgb(3, 186, 248);
 }
 
 /*funktioniert nicht
@@ -250,26 +250,61 @@ svg:hover #w1 .st1{
 */
 
 #r1{
-    fill:antiquewhite
+    fill:rgb(3, 236, 248);
 }
 
 #i1{
-    fill: rgb(127, 133, 255);
+    fill:rgb(3, 248, 199);
 }
 
 #t1{
-    fill:antiquewhite
+    fill:rgb(3, 248, 130);
 }
 
 #t2{
-    fill:antiquewhite
+    fill:rgb(3, 186, 248);
 }
 
 #e1{
-    fill: rgb(127, 133, 255);
+    fill:rgb(3, 236, 248);
 }
 
 #n1{
-    fill:antiquewhite;
+    fill:rgb(3, 248, 199);
 }
+
+#e2{
+    fill:rgb(3, 248, 130);
+}
+
+#m1{
+    fill:rgb(3, 236, 248);
+}
+
+#o1{
+    fill:rgb(3, 248, 199);
+}
+
+#t3{
+    fill:rgb(3, 248, 130);
+}
+
+#i2{
+    fill:rgb(3, 186, 248);
+}
+
+#o2{
+    fill:rgb(3, 236, 248);
+}
+
+#n2{
+    fill:rgb(3, 248, 199);
+}
+
+#s1{
+    fill:rgb(3, 248, 130);
+}
+
+
+
 

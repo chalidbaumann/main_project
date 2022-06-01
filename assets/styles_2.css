@@ -21,11 +21,12 @@
 /*Schriften E-Mail/Word und Whatsapp*/
 /*@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');*/
 /*@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla&display=swap');*/
-@font-face {
+/*@font-face {
     font-family: "Merriweather", "Inter";
     src: url("font/Merriweather-Regular.woff") format("woff"),
     url("font/Inter-Regular.woff") format("woff")
-}
+}*/
+
 
 
 
@@ -74,7 +75,6 @@ span {
 
 
 /*Container = Plakat Hintergrundfläche*/
-
 .container {
     background-color: rgba(255, 255, 255, 0);
     flex-direction: column;
@@ -89,7 +89,6 @@ span {
 
 
 /*richtet alle Elemente mittig aus*/
-
 .center-fixed-element {
     position:inherit;
     top: 10%;
@@ -102,7 +101,6 @@ span {
 
 
 /*SVG-Pfade*/
-
 .svg1 {
     width: 120vw;
     height: 120vw;
@@ -122,7 +120,6 @@ span {
 
 
 /*Toggle switch button*/
-
 .toggle {
     margin: 0 0 0 2rem;
     position: relative;
@@ -138,7 +135,6 @@ span {
 
 
 /*Button vor dem Drücken*/
-
 .roundbutton {
     position: absolute;
     top: 0;
@@ -162,7 +158,6 @@ span {
 }
 
 /*Switch im Button*/
-
 .roundbutton:before {
     position: absolute;
     content: "";
@@ -178,7 +173,6 @@ span {
 
 
 /*Button nach dem Drücken*/
-
 input:checked+.roundbutton {
     background-color: aquamarine;
 }
@@ -189,7 +183,6 @@ input:checked+.roundbutton:before {
 
 
 /*Animation*/
-
 .animate {
     animation: reveal 1s forwards;
 }
@@ -207,10 +200,7 @@ input:checked+.roundbutton:before {
 
 
 /*Flexbox für Buttons und Text*/
-
-
 /*Äussere Box*/
-
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -222,8 +212,8 @@ input:checked+.roundbutton:before {
 }
 
 
-/*Hier hinein kommen die Buttons*/
 
+/*Hier hinein kommen die Buttons*/
 .navbox {
     flex-direction: column;
     column-count: 2;
@@ -241,7 +231,6 @@ input:checked+.roundbutton:before {
 
 
 /*Text zum Button*/
-
 .navbutton {
     color: rgb(255, 255, 255);
     font-family: 'Quicksand', sans-serif;
@@ -250,16 +239,13 @@ input:checked+.roundbutton:before {
     margin-bottom: 9px;
     margin-top: 30px;
     margin-right: 20px;
-    /*width: 500px;*/
 }
 
 
 /*Dropdown-Menu*/
-
 .dropdown {
     /* Border */
     border: solid 5px black;
-    ;
     background-color: white;
     display: flex;
     /* Reset list styles */
@@ -271,7 +257,6 @@ input:checked+.roundbutton:before {
     padding-left: 0;
     z-index: 6;
     font-family: 'Noto Sans', sans-serif;
-    ;
     font-size: 30px;
     width: 150px;
     position: fixed;
@@ -293,7 +278,6 @@ input:checked+.roundbutton:before {
 
 
 /* The sub dropdown */
-
 .dropdown ul {
     z-index: 6;
     /* Border */
@@ -316,7 +300,6 @@ input:checked+.roundbutton:before {
 
 
 /* The second level sub dropdown */
-
 .dropdown ul ul {
     z-index: 6;
     left: 100%;
@@ -326,7 +309,6 @@ input:checked+.roundbutton:before {
 
 
 /* Change background color of list item when being hovered */
-
 .dropdown li:hover {
     z-index: 6;
     background-color: rgba(227, 227, 227, 0);
@@ -335,7 +317,6 @@ input:checked+.roundbutton:before {
 
 
 /* Show the direct sub dropdown when hovering the list item */
-
 .dropdown li:hover>ul {
     z-index: 6;
     display: block;
@@ -345,7 +326,6 @@ input:checked+.roundbutton:before {
 
 
 /*Anderer Cursor*/
-
 .mycursor {
     cursor: url("img/textcursor_aquamarine.png"), pointer;
 }
@@ -404,4 +384,9 @@ span {
     margin-left: 20px;
     font-size: 70px;
     color: white;
+}
+
+.hwhite{
+    color: white;
+    font-size: 20px;;
 }
