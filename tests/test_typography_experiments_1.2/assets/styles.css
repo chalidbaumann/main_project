@@ -18,22 +18,24 @@ a{
     padding: 4px;
 }
 
+/*Haus*/
 .homebutton{
     display: flex;
     cursor: pointer;
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: solid 2px black;
-    background-color: white;
+    /*border: solid 2px black;*/
+    color: white;
+    background-color: dimgray;
     text-align: center;
     align-items: center;
     justify-content: center;
 }
 
 .homebutton:hover{
-    box-shadow: #3f3 10px 10px 10px;
-    background-color: rgb(242, 242, 242);
+    /*box-shadow: #3f3 10px 10px 10px;*/
+    background-color: aquamarine;
 }
 
 .w3large{

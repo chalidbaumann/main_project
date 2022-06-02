@@ -7,6 +7,8 @@ a{
     text-decoration: none;
 }
 
+
+
 span{
     content: "\261A";
 }
@@ -34,23 +36,25 @@ cursor: pointer;
     column-gap: 30px;
 }
 
+/*Haus*/
 .homebutton{
     display: flex;
     cursor: pointer;
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: solid 2px black;
+   /*border: solid 2px black;*/
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: white;
     margin: 2px;
+    color: white;
+    background-color: dimgray;
 }
 
 .homebutton:hover{
-    box-shadow: #3f3 10px 10px 10px;
-    background-color: rgb(242, 242, 242);
+    /*box-shadow: #3f3 10px 10px 10px;*/
+    background-color: aquamarine;
 }
 
 .w3large{
