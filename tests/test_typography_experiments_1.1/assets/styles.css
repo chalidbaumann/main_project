@@ -1,26 +1,19 @@
 body{
     margin: 0;
     padding: 0;
-    /*margin-left: 30px;
-    margin-top: 10px;*/
+    margin-left: 30px;
+    margin-top: 10px;
     background-color: black;
 }
 
-
-/*Navitation oben*/
-/*a {
+a{
     text-decoration: none;
 }
 
-span {
-    content: "\261A";
-}
 
-a:hover {
-    cursor: pointer;
-}
-
-.navigationoben {
+.navigationoben{
+    position:fixed;
+    background-color: rgba(255, 255, 255, 0);
     height: 300px;
     margin-bottom: 10px;
     display: inline;
@@ -28,55 +21,52 @@ a:hover {
     padding: 4px;
 }
 
-.containermenu {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-/*Haus
-.homebutton {
+/*Haus*/
+.homebutton{
     display: flex;
     cursor: pointer;
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    /*border: solid 2px black;*/
+    color: white;
+    background-color: dimgray;
     text-align: center;
     align-items: center;
     justify-content: center;
-    color: white;
-    background-color: dimgray;
 }
 
-.homebutton:hover {
+.homebutton:hover{
+    /*box-shadow: #3f3 10px 10px 10px;*/
     background-color: aquamarine;
 }
 
-/*Grösse Haus
-.w3large {
+.w3large{
     font-size: 60px;
     text-align: center;
 }
 
-.hinweishand {
+.containermenu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hinweishand{
     margin-left: 20px;
     font-size: 70px;
     color: white;
 }
 
-
-.fa-home:before {
-    content: "\f015";
-    font-size: xxx-large;
-    align-items: center;
+span{
+    content: "\261A";
 }
-.fa {
-    display: flex;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    align-items: center;
-    flex-direction: row;
-}*/
+
+
+a:hover{
+    cursor: pointer;
+}
+
+.position{
+    top: 600px;
+}

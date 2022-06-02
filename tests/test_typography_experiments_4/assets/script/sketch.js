@@ -79,11 +79,11 @@ function draw() {
         count = 0;
     }
 
-    text(json[count].concept1, 50 + (200 * count), 50, window.innerWidth, window.innerHeight); //zeigt text concept wörter
-    text(json[count].concept2, 50 + (200 * count), 150, window.innerWidth, window.innerHeight);
-    text(json[count].concept3, 50 + (200 * count), 250, window.innerWidth, window.innerHeight);
-    text(json[count].concept4, 50 + (200 * count), 350, window.innerWidth, window.innerHeight);
-    text(json[count].concept5, 50 + (200 * count), 450, window.innerWidth, window.innerHeight);
+    text(json[count].concept1, 50 + (200 * count), 250, window.innerWidth, window.innerHeight); //zeigt text concept wörter
+    text(json[count].concept2, 50 + (200 * count), 350, window.innerWidth, window.innerHeight);
+    text(json[count].concept3, 50 + (200 * count), 450, window.innerWidth, window.innerHeight);
+    text(json[count].concept4, 50 + (200 * count), 550, window.innerWidth, window.innerHeight);
+    text(json[count].concept5, 50 + (200 * count), 650, window.innerWidth, window.innerHeight);
 
 
     if (json[count].author == "Chalid") { //zeigt farben chalid oder sonja
