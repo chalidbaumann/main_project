@@ -3,12 +3,37 @@
 /*Schrift für h2 (Noto Sans Black 900)*/
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap');
 
+/*Schrift für p (Noto)*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+
 
 body {
-    background-image: url("img/hintergrund1.png");
+    /*background-image: url("img/hintergrund1.png");*/
     /*background-size: contain;*/
+    background-color: black;
     z-index: -6;
 }
+
+p{
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 30px;
+    z-index: 2;
+}
+
+h3{
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 50px;
+    z-index: 2;
+    font-size: 20px;
+    font-weight: 100;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
 
 h2 {
     font-family: 'Noto Sans', sans-serif;
