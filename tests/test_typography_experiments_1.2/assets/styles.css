@@ -7,7 +7,7 @@ body{
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none;;
 }
 
 
@@ -58,6 +58,15 @@ a{
     font-size: 70px;
     color: white;
 }
+.hinweishandr{
+    margin-left: 20px;
+    font-size: 70px;
+    color: white;
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+}
+
 
 span{
     content: "\261A";

@@ -58,6 +58,18 @@ a{
     color: white;
 }
 
+.hinweishandr{
+    margin-left: 20px;
+    font-size: 70px;
+    color: white;
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+}
+
+.hinweishandr:hover{
+}
+
 span{
     content: "\261A";
 }

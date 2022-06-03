@@ -104,7 +104,7 @@ div.gallery {
 }*/
 
 div.gallery img {
-    width: 120%;
+    width: 125%;
     /*height: 400px;*/
     position: inherit;
     object-fit: cover;

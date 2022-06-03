@@ -98,3 +98,12 @@ cursor: pointer;
     margin-left: 20px;
     font-size: 70px;
 }
+
+.hinweishandr{
+    margin-left: 20px;
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+}
