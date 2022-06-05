@@ -315,6 +315,10 @@ input.addEventListener('change', function() {
 });
 
 
+
+
+
+
 //Button polarity
 var input = document.getElementById('toggleswitch6');
 //console.log(input);

@@ -14,7 +14,7 @@
 
 
 body {
-    height: 500vh;
+    height: 100vh;
     margin: 0;
     background-color: black;
     position: absolute;
@@ -149,7 +149,7 @@ h1:hover .extra {
 /*Richtet alle Elemente aus*/
 .center-fixed-element {
     position:inherit;
-    top: 10%;
+    top: 20%;
     left: 10%;
     transform: translate(-30%, -30%);
     -moz-transform: translate(-30%, -30%);
@@ -166,21 +166,21 @@ transform: translate(-30%, -30%);
 
 /*SVG-Pfade*/
 .svg1 {
-    width: 160vw;
-    height: 160vw;
+    width: 55vw;
+    height: 55vw;
     z-index: 2;
     pointer-events: none;
     fill: white;
-    margin-left: 100px;
+    margin-left: 480px;
 }
 
 .svg2 {
-    width: 160vw;
-    height: 160vw;
+    width: 55vw;
+    height: 55vw;
     z-index: 1;
     pointer-events: none;
     fill: white;
-    margin-left: 130px;
+    margin-left: 1050px;
 }
 
 
@@ -306,3 +306,5 @@ input:checked+.roundbutton:before {
 .mycursor {
     cursor: url("img/textcursor_aquamarine.png"), pointer;
 }
+
+
