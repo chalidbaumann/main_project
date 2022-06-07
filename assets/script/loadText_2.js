@@ -33,11 +33,8 @@ async function printJSON() {
     writeTextOnPath();
 }
 
-
-
 //let n = 19; n < 28; n++
 //for (let n = 0; n < json.length; n++) 
-
 
 //Text JSON auf SVG-Pfad tun
 function writeTextOnPath() {
@@ -68,9 +65,7 @@ function writeTextOnPath() {
             chalid.appendChild(div);
         }
     }
-
-   
-    
+    //Buttons, die by default angewählt sind
     input_5.checked=1;
     input_5.dispatchEvent(event);
     input_6.checked=1;
@@ -106,59 +101,12 @@ function mixColor(percentage) {
 function fontSize(percentage) {
     let minsize = 3;
     let fontsize = Math.round(minsize + (percentage + 1) * 5); // 10 - 30
-
     //console.log(fontsize)
     return fontsize;
 
 }
 
 printJSON();
-
-
-
-//Style für E-Mail/Word und WhatsApp
-/*let chalid = document.getElementById("text-path");
-let sonja = document.getElementById("text-path-two");
-//Chalid
-for (let i = 0; i < chalid.children.length; i++) {
-    if (chalid.children[i].classList.contains("Whatsapp")) {
-        chalid.children[i].style.stroke= chalid.children[i].getAttribute("applicationStroke");
-    } else {
-        chalid.children[i].style.stroke="grey";
-    }
-}
-//Sonja
-for (let i = 0; i < sonja.children.length; i++) {
-    if (sonja.children[i].classList.contains("Whatsapp")) {
-        sonja.children[i].style.stroke="green";
-    } else {
-        sonja.children[i].style.stroke="grey";
-    }
-}
-
-for (let i = 0; i < sonja.children.length; i++) {
-    sonja.children[i].style.opacity = sonja.children[i].getAttribute("confidenceOpacity")
-}
-//Style für E-Mail/Word und WhatsApp
-let chalid = document.getElementById("text-path");
-let sonja = document.getElementById("text-path-two");
-//Chalid
-for (let i = 0; i < chalid.children.length; i++) {
-    if (chalid.children[i].classList.contains("Whatsapp")) {
-        chalid.children[i].style.stroke= chalid.children[i].getAttribute("applicationStroke");
-    } else {
-    chalid.children[i].style.stroke="";
-    }
-}
-//Sonja
-for (let i = 0; i < sonja.children.length; i++) {
-    if (chalid.children[i].classList.contains("Whatsapp")) {
-    sonja.children[i].style.opacity = sonja.children[i].getAttribute("applicationStroke");
-    } else {
-    sonja.children[i].style.stroke="";
-    }
-}*/
-
 
 
 //Toggle switch buttons
