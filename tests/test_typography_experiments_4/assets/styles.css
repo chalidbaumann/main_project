@@ -10,12 +10,14 @@ a{
     text-decoration: none;
 }
 
-
-
 span{
     content: "\261A";
 }
 
+/*Hover Hinweishand*/
+span:hover{
+    color: aquamarine;
+}
 
 a:hover{
 cursor: pointer;

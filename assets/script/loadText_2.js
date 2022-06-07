@@ -17,6 +17,14 @@ let json;
 //Farben für Subjectivity
 let color1 = "rgb(0, 255, 255)"; //objektiv
 let color2 = "rgb(234, 10, 142)"; //subjektiv
+var input_1 = document.getElementById('toggleswitch1');
+var input_2 = document.getElementById('toggleswitch2');
+var input_3 = document.getElementById('toggleswitch3');
+var input_4 = document.getElementById('toggleswitch4');
+var input_5 = document.getElementById('toggleswitch5');
+var input_6 = document.getElementById('toggleswitch6');
+var input_7 = document.getElementById('toggleswitch7');
+const event = new Event('change');  
 //Fetch
 async function printJSON() {
     const response = await fetch("assets/script/test_2.json");
@@ -60,6 +68,13 @@ function writeTextOnPath() {
             chalid.appendChild(div);
         }
     }
+
+   
+    
+    input_5.checked=1;
+    input_5.dispatchEvent(event);
+    input_6.checked=1;
+    input_6.dispatchEvent(event);
 }
 
 
@@ -148,9 +163,8 @@ for (let i = 0; i < sonja.children.length; i++) {
 
 //Toggle switch buttons
 //Button für Nur E-Mail und Word
-var input = document.getElementById('toggleswitch1');
 //console.log(input);
-input.addEventListener('change', function() {
+input_1.addEventListener('change', function() {
     if (this.checked) {
         //console.log("aktiv")
         let chalid = document.getElementById("text-path");
@@ -194,9 +208,8 @@ input.addEventListener('change', function() {
 
 
 //Button für Nur Whatsapp
-var input = document.getElementById('toggleswitch2');
 //console.log(input);
-input.addEventListener('change', function() {
+input_2.addEventListener('change', function() {
     if (this.checked) {
         //console.log("aktiv")
         let chalid = document.getElementById("text-path");
@@ -239,9 +252,8 @@ input.addEventListener('change', function() {
 
 
 //Button für Nur Chalid
-var input = document.getElementById('toggleswitch3');
 //console.log(input);
-input.addEventListener('change', function() {
+input_3.addEventListener('change', function() {
     if (this.checked) {
         //console.log("aktiv")
         let chalid = document.getElementById("text-path");
@@ -261,9 +273,8 @@ input.addEventListener('change', function() {
 
 
 //Button für Nur Sonja
-var input = document.getElementById('toggleswitch4');
 //console.log(input);
-input.addEventListener('change', function() {
+input_4.addEventListener('change', function() {
     if (this.checked) {
         //console.log("aktiv")
         let chalid = document.getElementById("text-path");
@@ -282,9 +293,9 @@ input.addEventListener('change', function() {
 
 
 //Button subjectivity
-var input = document.getElementById('toggleswitch5');
+
 //console.log(input);
-input.addEventListener('change', function() {
+input_5.addEventListener('change', function() {
     if (this.checked) {
         //console.log("aktiv")
         let chalid = document.getElementById("text-path");
@@ -319,10 +330,11 @@ input.addEventListener('change', function() {
 
 
 
+
+
 //Button polarity
-var input = document.getElementById('toggleswitch6');
 //console.log(input);
-input.addEventListener('change', function() {
+input_6.addEventListener('change', function() {
     if (this.checked) {
         //console.log("aktiv")
         let chalid = document.getElementById("text-path");
@@ -353,10 +365,10 @@ input.addEventListener('change', function() {
 });
 
 
+
 //Button confidence
-var input = document.getElementById('toggleswitch7');
 //console.log(input);
-input.addEventListener('change', function() {
+input_7.addEventListener('change', function() {
     if (this.checked) {
         //console.log("aktiv")
         let chalid = document.getElementById("text-path");

@@ -10,6 +10,11 @@ a{
     text-decoration: none;
 }
 
+/*Hover Hinweishand*/
+span:hover{
+    color: aquamarine;
+}
+
 .navigationoben{
     position:fixed;
     /*background-color: rgb(255, 255, 255);*/

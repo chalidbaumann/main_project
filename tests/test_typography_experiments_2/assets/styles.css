@@ -49,6 +49,11 @@ span{
     content: "\261A";
 }
 
+/*Hover Hindweishand*/
+span:hover{
+    color: aquamarine;
+}
+
 
 a:hover{
 cursor: pointer;

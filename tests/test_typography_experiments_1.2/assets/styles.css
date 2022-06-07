@@ -11,6 +11,11 @@ a{
 }
 
 
+/*Hover Hingweishand*/
+span:hover{
+    color: aquamarine;
+}
+
 .navigationoben{
     position:fixed;
     background-color: rgba(255, 255, 255, 0);

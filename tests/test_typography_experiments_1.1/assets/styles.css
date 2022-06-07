@@ -11,6 +11,11 @@ a{
 }
 
 
+/*Hover Hinweishand*/
+span:hover{
+    color: aquamarine;
+}
+
 .navigationoben{
     position:fixed;
     background-color: rgba(255, 255, 255, 0);
@@ -58,6 +63,10 @@ a{
     color: white;
 }
 
+.hinweishand:hover{
+    color: dimgray;
+}
+
 .hinweishandr{
     margin-left: 20px;
     font-size: 70px;
@@ -68,12 +77,12 @@ a{
 }
 
 .hinweishandr:hover{
+    color: dimgray;
 }
 
 span{
     content: "\261A";
 }
-
 
 a:hover{
     cursor: pointer;
